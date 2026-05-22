@@ -122,6 +122,3 @@ Vercel serves the frontend from a different origin than the API Gateway URL. Req
 
 ---
 
-## License
-
-MIT
