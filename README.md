@@ -28,8 +28,12 @@ LLM           →  writes a clear explanation of why each tool fits
 Results       →  ranked tool cards with reasoning and confidence scores
 ```
 
----
 
+## Screenshot
+
+![DoomStack homepage](./frontend/public/screenshot.png)
+
+---
 ## Tech Stack
 
 | Layer | Tech |
@@ -94,13 +98,7 @@ python -m pipeline.merge --new new_tools.json
 python -m pipeline.ingest --mode incremental
 ```
 
----
 
-## Screenshot
-
-![DoomStack homepage](./frontend/public/screenshot.png)
-
----
 
 ## Challenges We Faced
 
