@@ -2,7 +2,7 @@
 
 > Discover the right AI tool for any job. Powered by hybrid search and LLM-generated recommendations.
 
-**[Live Demo](https://your-app.vercel.app)** · **[API](https://ijjedtz7y5.execute-api.ap-south-1.amazonaws.com/health)**
+**[Live Demo](https://hybrid-rag-five.vercel.app)** · **[API](https://ijjedtz7y5.execute-api.ap-south-1.amazonaws.com/health)**
 
 ---
 

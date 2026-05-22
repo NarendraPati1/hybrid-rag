@@ -95,7 +95,7 @@ export const Header: React.FC<HeaderProps> = ({ onSearch, isSearching }) => {
 
 
         <a
-          href="https://github.com"
+          href="https://github.com/NarendraPati1/hybrid-rag"
           target="_blank"
           rel="noreferrer"
           className="flex items-center gap-2 px-3.5 py-2 rounded-lg bg-white/[0.04] border border-white/[0.06] hover:bg-white/[0.07] transition-all text-sm"
