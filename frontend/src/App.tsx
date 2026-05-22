@@ -441,19 +441,28 @@ export default function App() {
             setIsBrowsingAll(false);
           }}
         >
-          <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center text-white shadow-lg shadow-accent/20">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M12 2L20 6.5V17.5L12 22L4 17.5V6.5L12 2Z" />
-              <path d="M12 6L18 9.5V14.5L12 18L6 14.5V9.5L12 6Z" fill="rgba(255, 255, 255, 0.2)" />
-              <line x1="12" y1="2" x2="12" y2="6" />
-              <line x1="12" y1="18" x2="12" y2="22" />
-              <line x1="20" y1="6.5" x2="18" y2="9.5" />
-              <line x1="4" y1="6.5" x2="6" y2="9.5" />
-              <line x1="20" y1="17.5" x2="18" y2="14.5" />
-              <line x1="4" y1="17.5" x2="6" y2="14.5" />
+          <div style={{ width: 32, height: 32, display: "flex", alignItems: "center", justifyContent: "center", filter: "drop-shadow(0 0 7px rgba(139,92,246,0.7))" }}>
+            <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="rg1" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stopColor="#7c3aed"/><stop offset="100%" stopColor="#a78bfa"/>
+                </linearGradient>
+                <linearGradient id="rg2" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stopColor="#8b5cf6"/><stop offset="100%" stopColor="#c4b5fd"/>
+                </linearGradient>
+                <linearGradient id="rg3" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stopColor="#a78bfa"/><stop offset="100%" stopColor="#ede9fe"/>
+                </linearGradient>
+              </defs>
+              <rect x="4"  y="22"   width="24" height="5" rx="1.5" fill="url(#rg1)" opacity="0.9"/>
+              <rect x="6"  y="14.5" width="20" height="5" rx="1.5" fill="url(#rg2)" opacity="0.95"/>
+              <rect x="9"  y="7"    width="14" height="5" rx="1.5" fill="url(#rg3)"/>
             </svg>
           </div>
-          <span className="text-base font-bold text-white tracking-tight font-display">doomstack</span>
+          <span style={{ fontSize: 15, fontWeight: 800, letterSpacing: "-0.02em", background: "linear-gradient(90deg,#e2d9f3 0%,#a78bfa 60%,#7c3aed 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
+            doom<span style={{ WebkitTextFillColor: "#a78bfa" }}>Stack</span>
+          </span>
+
         </div>
 
         {/* Inline search (compact) */}
