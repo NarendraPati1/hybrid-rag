@@ -10,7 +10,6 @@ app = FastAPI(
     version="1.0.0",
 )
 
-# Allow all origins (tighten after you have a CloudFront domain)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
