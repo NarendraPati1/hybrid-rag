@@ -23,21 +23,51 @@ export const Header: React.FC<HeaderProps> = ({ onSearch, isSearching }) => {
       {/* ── Top bar ─────────────────────────────── */}
       <div className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 md:px-10 py-5">
         {/* Logo */}
-        <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center shadow-lg shadow-accent/20">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M12 2L20 6.5V17.5L12 22L4 17.5V6.5L12 2Z" />
-              <path d="M12 6L18 9.5V14.5L12 18L6 14.5V9.5L12 6Z" fill="rgba(255, 255, 255, 0.2)" />
-              <line x1="12" y1="2" x2="12" y2="6" />
-              <line x1="12" y1="18" x2="12" y2="22" />
-              <line x1="20" y1="6.5" x2="18" y2="9.5" />
-              <line x1="4" y1="6.5" x2="6" y2="9.5" />
-              <line x1="20" y1="17.5" x2="18" y2="14.5" />
-              <line x1="4" y1="17.5" x2="6" y2="14.5" />
+        <div className="flex items-center gap-2.5">
+          {/* DoomStack stacked-layers mark */}
+          <div style={{
+            width: 36,
+            height: 36,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            filter: "drop-shadow(0 0 8px rgba(139,92,246,0.7))",
+          }}>
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="g1" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stopColor="#7c3aed"/>
+                  <stop offset="100%" stopColor="#a78bfa"/>
+                </linearGradient>
+                <linearGradient id="g2" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stopColor="#8b5cf6"/>
+                  <stop offset="100%" stopColor="#c4b5fd"/>
+                </linearGradient>
+                <linearGradient id="g3" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stopColor="#a78bfa"/>
+                  <stop offset="100%" stopColor="#ede9fe"/>
+                </linearGradient>
+              </defs>
+              {/* Bottom layer */}
+              <rect x="4" y="22" width="24" height="5" rx="1.5" fill="url(#g1)" opacity="0.9"/>
+              {/* Middle layer */}
+              <rect x="6" y="14.5" width="20" height="5" rx="1.5" fill="url(#g2)" opacity="0.95"/>
+              {/* Top layer */}
+              <rect x="9" y="7" width="14" height="5" rx="1.5" fill="url(#g3)"/>
             </svg>
           </div>
-          <span className="text-xl font-bold text-white tracking-tight font-display">
-            doomStack
+          {/* Wordmark */}
+          <span style={{
+            fontSize: 17,
+            fontWeight: 800,
+            letterSpacing: "-0.02em",
+            background: "linear-gradient(90deg, #e2d9f3 0%, #a78bfa 60%, #7c3aed 100%)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+            fontFamily: "inherit",
+            lineHeight: 1,
+          }}>
+            doom<span style={{ WebkitTextFillColor: "#a78bfa" }}>Stack</span>
           </span>
         </div>
 
