@@ -1,0 +1,49 @@
+﻿# Python cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Environment secrets
+.env
+.env.*
+
+# Git
+.git
+.gitignore
+
+# Virtual environments (rag/ dir at project root is a venv)
+rag
+venv
+.venv
+
+# Frontend (deployed separately to S3/CloudFront)
+frontend
+node_modules
+
+# Ingestion/utility scripts — offline only, NOT needed in Lambda
+scripts
+
+# Large binary/data files at root level
+data
+datasets
+models
+cache
+
+# Large file types
+*.csv
+*.parquet
+*.ipynb
+
+# Docker & compose files
+docker-compose.yml
+.dockerignore
+
+# Editor / OS
+.vscode
+.idea
+.DS_Store
+*.log
+
+# Docs
+README.md

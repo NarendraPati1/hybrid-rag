@@ -1,0 +1,4013 @@
+[
+  {
+    "tool_name": "LangChain",
+    "category": "LLM Framework",
+    "description": "Framework for building context-aware LLM applications, AI agents, and RAG pipelines.",
+    "features": [
+      "agents",
+      "tool calling",
+      "memory",
+      "RAG pipelines"
+    ],
+    "tags": [
+      "llm-framework",
+      "rag",
+      "agents"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.langchain.com",
+    "github": "https://github.com/langchain-ai/langchain",
+    "use_cases": [
+      "chatbots",
+      "AI agents",
+      "document QA"
+    ],
+    "content": "LangChain helps developers build AI-powered applications using chains, memory, agents, tools, and vector databases for advanced LLM workflows.",
+    "embed_text": "LangChain is an AI tool. Category: LLM Framework. Framework for building context-aware LLM applications, AI agents, and RAG pipelines. Key features include agents, tool calling, memory, RAG pipelines. Common use cases are chatbots, AI agents, document QA. Pricing model: open-source.",
+    "logo_url": "https://cdn.simpleicons.org/langchain"
+  },
+  {
+    "tool_name": "LlamaIndex",
+    "category": "LLM Framework",
+    "description": "Data framework for connecting custom data sources with large language models.",
+    "features": [
+      "data connectors",
+      "vector indexing",
+      "retrieval pipelines"
+    ],
+    "tags": [
+      "rag",
+      "llm-framework",
+      "retrieval"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.llamaindex.ai",
+    "github": "https://github.com/run-llama/llama_index",
+    "use_cases": [
+      "enterprise search",
+      "document QA",
+      "knowledge assistants"
+    ],
+    "content": "LlamaIndex enables developers to build RAG systems and AI agents by indexing structured and unstructured data sources for LLM retrieval.",
+    "embed_text": "LlamaIndex is an AI tool. Category: LLM Framework. Data framework for connecting custom data sources with large language models. Key features include data connectors, vector indexing, retrieval pipelines. Common use cases are enterprise search, document QA, knowledge assistants. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/run-llama?s=128"
+  },
+  {
+    "tool_name": "Haystack",
+    "category": "LLM Framework",
+    "description": "Framework for building production-ready NLP and LLM applications.",
+    "features": [
+      "pipelines",
+      "retrievers",
+      "agent support"
+    ],
+    "tags": [
+      "rag",
+      "search",
+      "nlp"
+    ],
+    "pricing": "open-source",
+    "website": "https://haystack.deepset.ai",
+    "github": "https://github.com/deepset-ai/haystack",
+    "use_cases": [
+      "semantic search",
+      "RAG systems",
+      "question answering"
+    ],
+    "content": "Haystack provides modular NLP and LLM orchestration components for building scalable search and retrieval applications.",
+    "embed_text": "Haystack is an AI tool. Category: LLM Framework. Framework for building production-ready NLP and LLM applications. Key features include pipelines, retrievers, agent support. Common use cases are semantic search, RAG systems, question answering. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/deepset-ai?s=128"
+  },
+  {
+    "tool_name": "DSPy",
+    "category": "LLM Framework",
+    "description": "Framework for algorithmically optimizing prompts and LLM pipelines.",
+    "features": [
+      "prompt optimization",
+      "few-shot tuning",
+      "LLM programming"
+    ],
+    "tags": [
+      "prompt-engineering",
+      "llm-framework",
+      "optimization"
+    ],
+    "pricing": "open-source",
+    "website": "https://dspy.ai",
+    "github": "https://github.com/stanfordnlp/dspy",
+    "use_cases": [
+      "prompt engineering",
+      "LLM optimization",
+      "AI research"
+    ],
+    "content": "DSPy allows developers to declaratively program language model systems and automatically optimize prompts and workflows.",
+    "embed_text": "DSPy is an AI tool. Category: LLM Framework. Framework for algorithmically optimizing prompts and LLM pipelines. Key features include prompt optimization, few-shot tuning, LLM programming. Common use cases are prompt engineering, LLM optimization, AI research. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/stanfordnlp?s=128"
+  },
+  {
+    "tool_name": "Semantic Kernel",
+    "category": "LLM Framework",
+    "description": "Microsoft's open-source SDK for integrating AI models into applications with plugins and planners.",
+    "features": [
+      "plugins",
+      "planners",
+      "multi-model support",
+      "memory connectors"
+    ],
+    "tags": [
+      "llm-framework",
+      "microsoft",
+      "agents",
+      "dotnet"
+    ],
+    "pricing": "open-source",
+    "website": "https://learn.microsoft.com/en-us/semantic-kernel/overview/",
+    "github": "https://github.com/microsoft/semantic-kernel",
+    "use_cases": [
+      "enterprise AI apps",
+      "AI orchestration",
+      "copilot experiences"
+    ],
+    "content": "Semantic Kernel is Microsoft's SDK that lets developers integrate AI models like OpenAI and Azure OpenAI into their apps using plugins and planners.",
+    "embed_text": "Semantic Kernel is an AI tool. Category: LLM Framework. Microsoft's open-source SDK for integrating AI models into applications with plugins and planners. Key features include plugins, planners, multi-model support, memory connectors. Common use cases are enterprise AI apps, AI orchestration, copilot experiences. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/microsoft?s=128"
+  },
+  {
+    "tool_name": "LangGraph",
+    "category": "LLM Framework",
+    "description": "Library for building stateful, multi-actor LLM applications as graphs.",
+    "features": [
+      "stateful graphs",
+      "multi-agent coordination",
+      "cyclic workflows",
+      "streaming"
+    ],
+    "tags": [
+      "llm-framework",
+      "agents",
+      "graph",
+      "orchestration"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.langchain.com/langgraph",
+    "github": "https://github.com/langchain-ai/langgraph",
+    "use_cases": [
+      "complex agent workflows",
+      "multi-step reasoning",
+      "stateful AI apps"
+    ],
+    "content": "LangGraph extends LangChain to support cyclic and stateful graph-based agent workflows, enabling complex multi-actor LLM applications.",
+    "embed_text": "LangGraph is an AI tool. Category: LLM Framework. Library for building stateful, multi-actor LLM applications as graphs. Key features include stateful graphs, multi-agent coordination, cyclic workflows, streaming. Common use cases are complex agent workflows, multi-step reasoning, stateful AI apps. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/langchain-ai?s=128"
+  },
+  {
+    "tool_name": "CAMEL",
+    "category": "LLM Framework",
+    "description": "Communicative Agents for Mind Exploration of Large Language Model Society.",
+    "features": [
+      "role-playing agents",
+      "multi-agent communication",
+      "task planning"
+    ],
+    "tags": [
+      "multi-agent",
+      "llm-framework",
+      "research"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.camel-ai.org",
+    "github": "https://github.com/camel-ai/camel",
+    "use_cases": [
+      "AI research",
+      "agent simulation",
+      "collaborative problem solving"
+    ],
+    "content": "CAMEL is a multi-agent framework exploring autonomous cooperation between AI agents through role-playing and structured communication.",
+    "embed_text": "CAMEL is an AI tool. Category: LLM Framework. Communicative Agents for Mind Exploration of Large Language Model Society. Key features include role-playing agents, multi-agent communication, task planning. Common use cases are AI research, agent simulation, collaborative problem solving. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/camel-ai?s=128"
+  },
+  {
+    "tool_name": "CrewAI",
+    "category": "LLM Framework",
+    "description": "Framework for orchestrating collaborative AI agents working together on tasks.",
+    "features": [
+      "multi-agent orchestration",
+      "task delegation",
+      "role-based agents"
+    ],
+    "tags": [
+      "agents",
+      "automation",
+      "multi-agent"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.crewai.com",
+    "github": "https://github.com/crewAIInc/crewAI",
+    "use_cases": [
+      "autonomous workflows",
+      "task automation",
+      "AI collaboration"
+    ],
+    "content": "CrewAI helps developers build teams of autonomous AI agents that collaborate together to solve complex workflows.",
+    "embed_text": "CrewAI is an AI tool. Category: LLM Framework. Framework for orchestrating collaborative AI agents working together on tasks. Key features include multi-agent orchestration, task delegation, role-based agents. Common use cases are autonomous workflows, task automation, AI collaboration. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/crewAIInc?s=128"
+  },
+  {
+    "tool_name": "AutoGen",
+    "category": "LLM Framework",
+    "description": "Microsoft's framework for building conversational multi-agent AI systems.",
+    "features": [
+      "multi-agent conversations",
+      "human-in-the-loop",
+      "code execution",
+      "tool use"
+    ],
+    "tags": [
+      "multi-agent",
+      "llm-framework",
+      "microsoft",
+      "automation"
+    ],
+    "pricing": "open-source",
+    "website": "https://microsoft.github.io/autogen/",
+    "github": "https://github.com/microsoft/autogen",
+    "use_cases": [
+      "code generation",
+      "task automation",
+      "multi-agent workflows"
+    ],
+    "content": "AutoGen enables building of next-gen LLM applications using multi-agent conversations where agents can work together and with humans.",
+    "embed_text": "AutoGen is an AI tool. Category: LLM Framework. Microsoft's framework for building conversational multi-agent AI systems. Key features include multi-agent conversations, human-in-the-loop, code execution, tool use. Common use cases are code generation, task automation, multi-agent workflows. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/microsoft?s=128"
+  },
+  {
+    "tool_name": "Langflow",
+    "category": "LLM Framework",
+    "description": "Visual builder and low-code IDE for building LangChain-based AI applications.",
+    "features": [
+      "visual flow editor",
+      "component library",
+      "API deployment",
+      "RAG support"
+    ],
+    "tags": [
+      "low-code",
+      "visual-builder",
+      "llm-framework"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.langflow.org",
+    "github": "https://github.com/langflow-ai/langflow",
+    "use_cases": [
+      "rapid prototyping",
+      "AI pipeline building",
+      "chatbot creation"
+    ],
+    "content": "Langflow is a visual IDE for building, iterating, and deploying AI applications powered by LangChain components.",
+    "embed_text": "Langflow is an AI tool. Category: LLM Framework. Visual builder and low-code IDE for building LangChain-based AI applications. Key features include visual flow editor, component library, API deployment, RAG support. Common use cases are rapid prototyping, AI pipeline building, chatbot creation. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/langflow-ai?s=128"
+  },
+  {
+    "tool_name": "Flowise",
+    "category": "LLM Framework",
+    "description": "Low-code visual builder for LangChain and LLM workflows.",
+    "features": [
+      "drag-and-drop interface",
+      "LangChain integration",
+      "API deployment"
+    ],
+    "tags": [
+      "workflow-builder",
+      "llm-apps",
+      "low-code"
+    ],
+    "pricing": "open-source",
+    "website": "https://flowiseai.com",
+    "github": "https://github.com/FlowiseAI/Flowise",
+    "use_cases": [
+      "AI workflow automation",
+      "chatbot building",
+      "rapid prototyping"
+    ],
+    "content": "Flowise provides a visual no-code interface for creating AI pipelines, agents, and chatbot workflows using LangChain.",
+    "embed_text": "Flowise is an AI tool. Category: LLM Framework. Low-code visual builder for LangChain and LLM workflows. Key features include drag-and-drop interface, LangChain integration, API deployment. Common use cases are AI workflow automation, chatbot building, rapid prototyping. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/FlowiseAI?s=128"
+  },
+  {
+    "tool_name": "Chainlit",
+    "category": "LLM Framework",
+    "description": "Python library for building conversational AI interfaces and chat UIs rapidly.",
+    "features": [
+      "chat UI",
+      "streaming",
+      "message history",
+      "LangChain integration"
+    ],
+    "tags": [
+      "chat-ui",
+      "llm-framework",
+      "python"
+    ],
+    "pricing": "open-source",
+    "website": "https://chainlit.io",
+    "github": "https://github.com/Chainlit/chainlit",
+    "use_cases": [
+      "chatbot UIs",
+      "AI assistant frontends",
+      "LLM app demos"
+    ],
+    "content": "Chainlit allows developers to quickly build production-ready conversational AI UIs with Python, with built-in support for streaming and history.",
+    "embed_text": "Chainlit is an AI tool. Category: LLM Framework. Python library for building conversational AI interfaces and chat UIs rapidly. Key features include chat UI, streaming, message history, LangChain integration. Common use cases are chatbot UIs, AI assistant frontends, LLM app demos. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/Chainlit?s=128"
+  },
+  {
+    "tool_name": "Dify",
+    "category": "LLM Framework",
+    "description": "Open-source platform for building and operating LLM-powered applications.",
+    "features": [
+      "visual workflow",
+      "prompt IDE",
+      "RAG pipeline",
+      "model management"
+    ],
+    "tags": [
+      "llm-platform",
+      "low-code",
+      "rag",
+      "agents"
+    ],
+    "pricing": "open-source",
+    "website": "https://dify.ai",
+    "github": "https://github.com/langgenius/dify",
+    "use_cases": [
+      "AI app development",
+      "chatbot deployment",
+      "enterprise AI"
+    ],
+    "content": "Dify is an open-source LLM app development platform that combines a visual workflow builder, RAG engine, and model management.",
+    "embed_text": "Dify is an AI tool. Category: LLM Framework. Open-source platform for building and operating LLM-powered applications. Key features include visual workflow, prompt IDE, RAG pipeline, model management. Common use cases are AI app development, chatbot deployment, enterprise AI. Pricing model: open-source.",
+    "logo_url": "https://cdn.simpleicons.org/dify"
+  },
+  {
+    "tool_name": "OpenDevin",
+    "category": "LLM Framework",
+    "description": "Open-source platform for autonomous software engineering AI agents.",
+    "features": [
+      "code generation",
+      "web browsing",
+      "terminal access",
+      "multi-agent"
+    ],
+    "tags": [
+      "agents",
+      "software-engineering",
+      "autonomous-ai"
+    ],
+    "pricing": "open-source",
+    "website": "https://opendevin.github.io/OpenDevin/",
+    "github": "https://github.com/OpenDevin/OpenDevin",
+    "use_cases": [
+      "autonomous coding",
+      "bug fixing",
+      "software development"
+    ],
+    "content": "OpenDevin is an open-source implementation of AI software agents capable of writing code, browsing the web, and running terminal commands.",
+    "embed_text": "OpenDevin is an AI tool. Category: LLM Framework. Open-source platform for autonomous software engineering AI agents. Key features include code generation, web browsing, terminal access, multi-agent. Common use cases are autonomous coding, bug fixing, software development. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/OpenDevin?s=128"
+  },
+  {
+    "tool_name": "PydanticAI",
+    "category": "LLM Framework",
+    "description": "Python agent framework built on top of Pydantic for type-safe LLM application development.",
+    "features": [
+      "type-safe agents",
+      "structured outputs",
+      "dependency injection",
+      "multi-model"
+    ],
+    "tags": [
+      "llm-framework",
+      "python",
+      "type-safe",
+      "agents"
+    ],
+    "pricing": "open-source",
+    "website": "https://ai.pydantic.dev",
+    "github": "https://github.com/pydantic/pydantic-ai",
+    "use_cases": [
+      "structured LLM outputs",
+      "type-safe AI apps",
+      "production AI agents"
+    ],
+    "content": "PydanticAI brings type safety and Pydantic's validation power to LLM application development, supporting multiple AI model providers.",
+    "embed_text": "PydanticAI is an AI tool. Category: LLM Framework. Python agent framework built on top of Pydantic for type-safe LLM application development. Key features include type-safe agents, structured outputs, dependency injection, multi-model. Common use cases are structured LLM outputs, type-safe AI apps, production AI agents. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/pydantic?s=128"
+  },
+  {
+    "tool_name": "RAGFlow",
+    "category": "RAG Platform",
+    "description": "Open-source Retrieval-Augmented Generation platform focused on deep document understanding.",
+    "features": [
+      "document parsing",
+      "knowledge retrieval",
+      "agent workflows"
+    ],
+    "tags": [
+      "rag",
+      "knowledge-base",
+      "retrieval"
+    ],
+    "pricing": "open-source",
+    "website": "https://ragflow.io",
+    "github": "https://github.com/infiniflow/ragflow",
+    "use_cases": [
+      "enterprise knowledge search",
+      "document QA",
+      "AI assistants"
+    ],
+    "content": "RAGFlow combines document ingestion, vector retrieval, and LLM orchestration into a complete open-source RAG platform.",
+    "embed_text": "RAGFlow is an AI tool. Category: RAG Platform. Open-source Retrieval-Augmented Generation platform focused on deep document understanding. Key features include document parsing, knowledge retrieval, agent workflows. Common use cases are enterprise knowledge search, document QA, AI assistants. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/infiniflow?s=128"
+  },
+  {
+    "tool_name": "AnythingLLM",
+    "category": "RAG Platform",
+    "description": "All-in-one AI desktop application with built-in RAG and agent capabilities.",
+    "features": [
+      "local AI",
+      "RAG support",
+      "agent builder"
+    ],
+    "tags": [
+      "workspace",
+      "rag",
+      "desktop-ai"
+    ],
+    "pricing": "open-source",
+    "website": "https://anythingllm.com",
+    "github": "https://github.com/Mintplex-Labs/anything-llm",
+    "use_cases": [
+      "private AI workspace",
+      "document chat",
+      "local assistants"
+    ],
+    "content": "AnythingLLM allows users to run AI assistants with private document retrieval, local models, and AI agent workflows.",
+    "embed_text": "AnythingLLM is an AI tool. Category: RAG Platform. All-in-one AI desktop application with built-in RAG and agent capabilities. Key features include local AI, RAG support, agent builder. Common use cases are private AI workspace, document chat, local assistants. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/Mintplex-Labs?s=128"
+  },
+  {
+    "tool_name": "Quivr",
+    "category": "RAG Platform",
+    "description": "Open-source AI-powered second brain for storing and retrieving personal knowledge.",
+    "features": [
+      "file ingestion",
+      "vector storage",
+      "multi-LLM support",
+      "web interface"
+    ],
+    "tags": [
+      "rag",
+      "knowledge-base",
+      "personal-ai"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.quivr.com",
+    "github": "https://github.com/QuivrHQ/quivr",
+    "use_cases": [
+      "personal knowledge base",
+      "document QA",
+      "team knowledge sharing"
+    ],
+    "content": "Quivr is an open-source RAG platform that turns documents, data, and files into a queryable personal or team knowledge base.",
+    "embed_text": "Quivr is an AI tool. Category: RAG Platform. Open-source AI-powered second brain for storing and retrieving personal knowledge. Key features include file ingestion, vector storage, multi-LLM support, web interface. Common use cases are personal knowledge base, document QA, team knowledge sharing. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/QuivrHQ?s=128"
+  },
+  {
+    "tool_name": "DocsGPT",
+    "category": "RAG Platform",
+    "description": "Open-source documentation assistant powered by AI for querying technical docs.",
+    "features": [
+      "document ingestion",
+      "chat interface",
+      "multi-LLM support",
+      "API"
+    ],
+    "tags": [
+      "rag",
+      "documentation",
+      "chatbot"
+    ],
+    "pricing": "open-source",
+    "website": "https://docsgpt.arc53.com",
+    "github": "https://github.com/arc53/DocsGPT",
+    "use_cases": [
+      "documentation QA",
+      "developer tools",
+      "knowledge retrieval"
+    ],
+    "content": "DocsGPT allows teams and developers to query documentation using natural language with an open-source RAG pipeline.",
+    "embed_text": "DocsGPT is an AI tool. Category: RAG Platform. Open-source documentation assistant powered by AI for querying technical docs. Key features include document ingestion, chat interface, multi-LLM support, API. Common use cases are documentation QA, developer tools, knowledge retrieval. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/arc53?s=128"
+  },
+  {
+    "tool_name": "Verba",
+    "category": "RAG Platform",
+    "description": "Open-source RAG chatbot powered by Weaviate for semantic document search.",
+    "features": [
+      "Weaviate integration",
+      "semantic search",
+      "modular ingestion",
+      "chat UI"
+    ],
+    "tags": [
+      "rag",
+      "semantic-search",
+      "weaviate"
+    ],
+    "pricing": "open-source",
+    "website": "https://verba.weaviate.io",
+    "github": "https://github.com/weaviate/Verba",
+    "use_cases": [
+      "document QA",
+      "enterprise search",
+      "knowledge retrieval"
+    ],
+    "content": "Verba is Weaviate's open-source RAG chatbot that enables semantic search and question answering over custom document collections.",
+    "embed_text": "Verba is an AI tool. Category: RAG Platform. Open-source RAG chatbot powered by Weaviate for semantic document search. Key features include Weaviate integration, semantic search, modular ingestion, chat UI. Common use cases are document QA, enterprise search, knowledge retrieval. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/weaviate?s=128"
+  },
+  {
+    "tool_name": "MaxKB",
+    "category": "RAG Platform",
+    "description": "Open-source knowledge base system with RAG support for building AI Q&A applications.",
+    "features": [
+      "document ingestion",
+      "vector search",
+      "API integration",
+      "web UI"
+    ],
+    "tags": [
+      "rag",
+      "knowledge-base",
+      "qa-system"
+    ],
+    "pricing": "open-source",
+    "website": "https://maxkb.cn",
+    "github": "https://github.com/1Panel-dev/MaxKB",
+    "use_cases": [
+      "enterprise Q&A",
+      "customer support bots",
+      "knowledge management"
+    ],
+    "content": "MaxKB is a ready-to-use RAG-based AI knowledge base application built for enterprise Q&A and support scenarios.",
+    "embed_text": "MaxKB is an AI tool. Category: RAG Platform. Open-source knowledge base system with RAG support for building AI Q&A applications. Key features include document ingestion, vector search, API integration, web UI. Common use cases are enterprise Q&A, customer support bots, knowledge management. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/1Panel-dev?s=128"
+  },
+  {
+    "tool_name": "Kotaemon",
+    "category": "RAG Platform",
+    "description": "Open-source RAG UI for chatting with documents, focused on clean user experience.",
+    "features": [
+      "document chat",
+      "multi-LLM",
+      "citation support",
+      "graph RAG"
+    ],
+    "tags": [
+      "rag",
+      "document-chat",
+      "ui"
+    ],
+    "pricing": "open-source",
+    "website": "https://cinnamon.github.io/kotaemon/",
+    "github": "https://github.com/Cinnamon/kotaemon",
+    "use_cases": [
+      "document QA",
+      "research assistance",
+      "knowledge retrieval"
+    ],
+    "content": "Kotaemon is an open-source RAG-based document chat UI with a focus on clean UI and support for multiple LLM backends.",
+    "embed_text": "Kotaemon is an AI tool. Category: RAG Platform. Open-source RAG UI for chatting with documents, focused on clean user experience. Key features include document chat, multi-LLM, citation support, graph RAG. Common use cases are document QA, research assistance, knowledge retrieval. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/Cinnamon?s=128"
+  },
+  {
+    "tool_name": "OpenWebUI",
+    "category": "RAG Platform",
+    "description": "Self-hosted web UI for Ollama and OpenAI-compatible APIs with built-in RAG.",
+    "features": [
+      "chat UI",
+      "RAG support",
+      "model management",
+      "plugin system"
+    ],
+    "tags": [
+      "chat-ui",
+      "rag",
+      "ollama",
+      "self-hosted"
+    ],
+    "pricing": "open-source",
+    "website": "https://openwebui.com",
+    "github": "https://github.com/open-webui/open-webui",
+    "use_cases": [
+      "local AI chat",
+      "document QA",
+      "AI assistant"
+    ],
+    "content": "Open WebUI is a feature-rich self-hosted interface for Ollama and OpenAI-compatible APIs with RAG, tool support, and multi-user management.",
+    "embed_text": "OpenWebUI is an AI tool. Category: RAG Platform. Self-hosted web UI for Ollama and OpenAI-compatible APIs with built-in RAG. Key features include chat UI, RAG support, model management, plugin system. Common use cases are local AI chat, document QA, AI assistant. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/open-webui?s=128"
+  },
+  {
+    "tool_name": "LibreChat",
+    "category": "RAG Platform",
+    "description": "Open-source ChatGPT-like interface supporting multiple AI providers and plugins.",
+    "features": [
+      "multi-provider",
+      "plugins",
+      "RAG",
+      "conversation history"
+    ],
+    "tags": [
+      "chat-ui",
+      "multi-model",
+      "self-hosted"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.librechat.ai",
+    "github": "https://github.com/danny-avila/LibreChat",
+    "use_cases": [
+      "AI chat interface",
+      "multi-model access",
+      "enterprise AI"
+    ],
+    "content": "LibreChat is a free, open-source chat interface that supports OpenAI, Anthropic, Google, and local models with full plugin support.",
+    "embed_text": "LibreChat is an AI tool. Category: RAG Platform. Open-source ChatGPT-like interface supporting multiple AI providers and plugins. Key features include multi-provider, plugins, RAG, conversation history. Common use cases are AI chat interface, multi-model access, enterprise AI. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/danny-avila?s=128"
+  },
+  {
+    "tool_name": "PrivateGPT",
+    "category": "RAG Platform",
+    "description": "Privacy-focused local AI assistant for document interaction without cloud dependency.",
+    "features": [
+      "100% local",
+      "document ingestion",
+      "vector search",
+      "offline mode"
+    ],
+    "tags": [
+      "privacy",
+      "local-ai",
+      "rag"
+    ],
+    "pricing": "open-source",
+    "website": "https://privategpt.io",
+    "github": "https://github.com/zylon-ai/private-gpt",
+    "use_cases": [
+      "private document QA",
+      "offline AI",
+      "sensitive data handling"
+    ],
+    "content": "PrivateGPT enables completely offline AI document interaction using local models and embeddings with no data leaving your machine.",
+    "embed_text": "PrivateGPT is an AI tool. Category: RAG Platform. Privacy-focused local AI assistant for document interaction without cloud dependency. Key features include 100% local, document ingestion, vector search, offline mode. Common use cases are private document QA, offline AI, sensitive data handling. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/zylon-ai?s=128"
+  },
+  {
+    "tool_name": "LocalGPT",
+    "category": "RAG Platform",
+    "description": "Locally running GPT model for document interaction with full data privacy.",
+    "features": [
+      "local models",
+      "document ingestion",
+      "GPU support",
+      "CLI interface"
+    ],
+    "tags": [
+      "local-ai",
+      "rag",
+      "privacy"
+    ],
+    "pricing": "open-source",
+    "website": "",
+    "github": "https://github.com/PromtEngineer/localGPT",
+    "use_cases": [
+      "private document QA",
+      "local AI deployment",
+      "offline search"
+    ],
+    "content": "LocalGPT runs entirely on local hardware, allowing users to chat with documents privately without any data leaving their system.",
+    "embed_text": "LocalGPT is an AI tool. Category: RAG Platform. Locally running GPT model for document interaction with full data privacy. Key features include local models, document ingestion, GPU support, CLI interface. Common use cases are private document QA, local AI deployment, offline search. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/PromtEngineer?s=128"
+  },
+  {
+    "tool_name": "ChatRTX",
+    "category": "RAG Platform",
+    "description": "NVIDIA's local AI chat app for querying documents using RTX-accelerated LLMs.",
+    "features": [
+      "GPU acceleration",
+      "local models",
+      "document search",
+      "Windows app"
+    ],
+    "tags": [
+      "local-ai",
+      "nvidia",
+      "rag",
+      "gpu"
+    ],
+    "pricing": "free",
+    "website": "https://www.nvidia.com/en-us/ai-on-rtx/chatrtx/",
+    "github": "",
+    "use_cases": [
+      "local document QA",
+      "offline AI",
+      "GPU-accelerated inference"
+    ],
+    "content": "ChatRTX is NVIDIA's desktop application for running local LLMs accelerated by RTX GPUs to chat with personal documents.",
+    "embed_text": "ChatRTX is an AI tool. Category: RAG Platform. NVIDIA's local AI chat app for querying documents using RTX-accelerated LLMs. Key features include GPU acceleration, local models, document search, Windows app. Common use cases are local document QA, offline AI, GPU-accelerated inference. Pricing model: free.",
+    "logo_url": "https://www.google.com/s2/favicons?domain=nvidia.com&sz=128"
+  },
+  {
+    "tool_name": "GPTCache",
+    "category": "RAG Platform",
+    "description": "Semantic caching library for LLM applications to reduce latency and cost.",
+    "features": [
+      "semantic caching",
+      "multi-LLM support",
+      "embedding similarity",
+      "Redis backend"
+    ],
+    "tags": [
+      "caching",
+      "optimization",
+      "llm-infrastructure"
+    ],
+    "pricing": "open-source",
+    "website": "https://gptcache.readthedocs.io",
+    "github": "https://github.com/zilliztech/GPTCache",
+    "use_cases": [
+      "LLM cost reduction",
+      "response caching",
+      "API optimization"
+    ],
+    "content": "GPTCache provides semantic caching for LLM responses, reducing redundant API calls by serving cached results for similar queries.",
+    "embed_text": "GPTCache is an AI tool. Category: RAG Platform. Semantic caching library for LLM applications to reduce latency and cost. Key features include semantic caching, multi-LLM support, embedding similarity, Redis backend. Common use cases are LLM cost reduction, response caching, API optimization. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/zilliztech?s=128"
+  },
+  {
+    "tool_name": "Mem0",
+    "category": "RAG Platform",
+    "description": "Memory layer for AI applications enabling personalized, context-aware interactions.",
+    "features": [
+      "persistent memory",
+      "user context",
+      "multi-LLM",
+      "graph memory"
+    ],
+    "tags": [
+      "memory",
+      "personalization",
+      "rag"
+    ],
+    "pricing": "open-source",
+    "website": "https://mem0.ai",
+    "github": "https://github.com/mem0ai/mem0",
+    "use_cases": [
+      "personalized AI",
+      "long-term memory",
+      "context-aware assistants"
+    ],
+    "content": "Mem0 provides an intelligent memory layer that enables AI assistants to remember user preferences and context across interactions.",
+    "embed_text": "Mem0 is an AI tool. Category: RAG Platform. Memory layer for AI applications enabling personalized, context-aware interactions. Key features include persistent memory, user context, multi-LLM, graph memory. Common use cases are personalized AI, long-term memory, context-aware assistants. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/mem0ai?s=128"
+  },
+  {
+    "tool_name": "Cognee",
+    "category": "RAG Platform",
+    "description": "Memory and knowledge graph framework for building AI applications with structured context.",
+    "features": [
+      "knowledge graphs",
+      "memory management",
+      "structured retrieval",
+      "multi-model"
+    ],
+    "tags": [
+      "knowledge-graph",
+      "memory",
+      "rag"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.cognee.ai",
+    "github": "https://github.com/topoteretes/cognee",
+    "use_cases": [
+      "knowledge management",
+      "AI memory",
+      "structured context retrieval"
+    ],
+    "content": "Cognee enables developers to build AI systems with reliable memory through knowledge graphs and deterministic retrieval pipelines.",
+    "embed_text": "Cognee is an AI tool. Category: RAG Platform. Memory and knowledge graph framework for building AI applications with structured context. Key features include knowledge graphs, memory management, structured retrieval, multi-model. Common use cases are knowledge management, AI memory, structured context retrieval. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/topoteretes?s=128"
+  },
+  {
+    "tool_name": "Pinecone",
+    "category": "Vector Database",
+    "description": "Managed vector database optimized for semantic search and AI retrieval systems.",
+    "features": [
+      "vector similarity search",
+      "metadata filtering",
+      "scalable indexing"
+    ],
+    "tags": [
+      "vector-database",
+      "semantic-search",
+      "retrieval"
+    ],
+    "pricing": "freemium",
+    "website": "https://www.pinecone.io",
+    "github": "",
+    "use_cases": [
+      "semantic search",
+      "RAG systems",
+      "recommendation engines"
+    ],
+    "content": "Pinecone provides scalable vector storage and retrieval infrastructure for semantic search, recommendation systems, and AI applications.",
+    "embed_text": "Pinecone is an AI tool. Category: Vector Database. Managed vector database optimized for semantic search and AI retrieval systems. Key features include vector similarity search, metadata filtering, scalable indexing. Common use cases are semantic search, RAG systems, recommendation engines. Pricing model: freemium.",
+    "logo_url": "https://avatars.githubusercontent.com/pinecone-io?s=128"
+  },
+  {
+    "tool_name": "Weaviate",
+    "category": "Vector Database",
+    "description": "Open-source vector database with built-in vectorization and hybrid search.",
+    "features": [
+      "hybrid search",
+      "built-in vectorizers",
+      "GraphQL API",
+      "multi-modal"
+    ],
+    "tags": [
+      "vector-database",
+      "semantic-search",
+      "open-source"
+    ],
+    "pricing": "open-source",
+    "website": "https://weaviate.io",
+    "github": "https://github.com/weaviate/weaviate",
+    "use_cases": [
+      "semantic search",
+      "RAG systems",
+      "knowledge graphs"
+    ],
+    "content": "Weaviate is an open-source vector database that supports hybrid search, multiple vectorizers, and a GraphQL interface.",
+    "embed_text": "Weaviate is an AI tool. Category: Vector Database. Open-source vector database with built-in vectorization and hybrid search. Key features include hybrid search, built-in vectorizers, GraphQL API, multi-modal. Common use cases are semantic search, RAG systems, knowledge graphs. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/weaviate?s=128"
+  },
+  {
+    "tool_name": "Qdrant",
+    "category": "Vector Database",
+    "description": "High-performance vector similarity search engine and database written in Rust.",
+    "features": [
+      "vector search",
+      "filtering",
+      "payload storage",
+      "distributed mode"
+    ],
+    "tags": [
+      "vector-database",
+      "rust",
+      "semantic-search"
+    ],
+    "pricing": "open-source",
+    "website": "https://qdrant.tech",
+    "github": "https://github.com/qdrant/qdrant",
+    "use_cases": [
+      "semantic search",
+      "recommendation systems",
+      "anomaly detection"
+    ],
+    "content": "Qdrant is a Rust-based vector search engine offering high-performance similarity search with advanced filtering capabilities.",
+    "embed_text": "Qdrant is an AI tool. Category: Vector Database. High-performance vector similarity search engine and database written in Rust. Key features include vector search, filtering, payload storage, distributed mode. Common use cases are semantic search, recommendation systems, anomaly detection. Pricing model: open-source.",
+    "logo_url": "https://cdn.simpleicons.org/qdrant"
+  },
+  {
+    "tool_name": "Milvus",
+    "category": "Vector Database",
+    "description": "Open-source vector database built for scalable similarity search in AI applications.",
+    "features": [
+      "billion-scale vectors",
+      "GPU support",
+      "hybrid search",
+      "cloud-native"
+    ],
+    "tags": [
+      "vector-database",
+      "scalable",
+      "cloud-native"
+    ],
+    "pricing": "open-source",
+    "website": "https://milvus.io",
+    "github": "https://github.com/milvus-io/milvus",
+    "use_cases": [
+      "large-scale semantic search",
+      "RAG",
+      "image/video retrieval"
+    ],
+    "content": "Milvus is a cloud-native vector database designed for billion-scale vector similarity search with GPU acceleration.",
+    "embed_text": "Milvus is an AI tool. Category: Vector Database. Open-source vector database built for scalable similarity search in AI applications. Key features include billion-scale vectors, GPU support, hybrid search, cloud-native. Common use cases are large-scale semantic search, RAG, image/video retrieval. Pricing model: open-source.",
+    "logo_url": "https://cdn.simpleicons.org/milvus"
+  },
+  {
+    "tool_name": "Chroma",
+    "category": "Vector Database",
+    "description": "Open-source embedding database designed for AI applications and RAG systems.",
+    "features": [
+      "embeddings storage",
+      "metadata filtering",
+      "Python/JS SDK",
+      "in-memory mode"
+    ],
+    "tags": [
+      "vector-database",
+      "embeddings",
+      "developer-friendly"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.trychroma.com",
+    "github": "https://github.com/chroma-core/chroma",
+    "use_cases": [
+      "RAG systems",
+      "semantic search",
+      "AI prototyping"
+    ],
+    "content": "Chroma is a developer-friendly open-source embedding database optimized for building AI and LLM applications quickly.",
+    "embed_text": "Chroma is an AI tool. Category: Vector Database. Open-source embedding database designed for AI applications and RAG systems. Key features include embeddings storage, metadata filtering, Python/JS SDK, in-memory mode. Common use cases are RAG systems, semantic search, AI prototyping. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/chroma-core?s=128"
+  },
+  {
+    "tool_name": "LanceDB",
+    "category": "Vector Database",
+    "description": "Serverless vector database built on Lance columnar format for multimodal AI.",
+    "features": [
+      "serverless",
+      "multimodal",
+      "columnar storage",
+      "Python SDK"
+    ],
+    "tags": [
+      "vector-database",
+      "serverless",
+      "multimodal"
+    ],
+    "pricing": "open-source",
+    "website": "https://lancedb.com",
+    "github": "https://github.com/lancedb/lancedb",
+    "use_cases": [
+      "multimodal search",
+      "RAG",
+      "local vector storage"
+    ],
+    "content": "LanceDB is a serverless vector database built on the Lance columnar format, optimized for multimodal AI and local-first development.",
+    "embed_text": "LanceDB is an AI tool. Category: Vector Database. Serverless vector database built on Lance columnar format for multimodal AI. Key features include serverless, multimodal, columnar storage, Python SDK. Common use cases are multimodal search, RAG, local vector storage. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/lancedb?s=128"
+  },
+  {
+    "tool_name": "FAISS",
+    "category": "Vector Database",
+    "description": "Facebook AI's library for efficient similarity search and clustering of dense vectors.",
+    "features": [
+      "GPU support",
+      "billion-scale search",
+      "clustering",
+      "multiple index types"
+    ],
+    "tags": [
+      "vector-search",
+      "library",
+      "meta-ai"
+    ],
+    "pricing": "open-source",
+    "website": "https://faiss.ai",
+    "github": "https://github.com/facebookresearch/faiss",
+    "use_cases": [
+      "vector similarity search",
+      "recommendation systems",
+      "clustering"
+    ],
+    "content": "FAISS is Meta's C++ library with Python bindings for efficient similarity search and clustering of large-scale dense vectors.",
+    "embed_text": "FAISS is an AI tool. Category: Vector Database. Facebook AI's library for efficient similarity search and clustering of dense vectors. Key features include GPU support, billion-scale search, clustering, multiple index types. Common use cases are vector similarity search, recommendation systems, clustering. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/facebookresearch?s=128"
+  },
+  {
+    "tool_name": "Vespa",
+    "category": "Vector Database",
+    "description": "Open-source platform for real-time big data serving with vector and structured search.",
+    "features": [
+      "real-time serving",
+      "hybrid search",
+      "structured data",
+      "ML ranking"
+    ],
+    "tags": [
+      "vector-database",
+      "search",
+      "real-time"
+    ],
+    "pricing": "open-source",
+    "website": "https://vespa.ai",
+    "github": "https://github.com/vespa-engine/vespa",
+    "use_cases": [
+      "real-time search",
+      "recommendation engines",
+      "hybrid RAG"
+    ],
+    "content": "Vespa is a production-grade platform for vector and structured data search with real-time serving and ML-based ranking.",
+    "embed_text": "Vespa is an AI tool. Category: Vector Database. Open-source platform for real-time big data serving with vector and structured search. Key features include real-time serving, hybrid search, structured data, ML ranking. Common use cases are real-time search, recommendation engines, hybrid RAG. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/vespa-engine?s=128"
+  },
+  {
+    "tool_name": "Elasticsearch",
+    "category": "Vector Database",
+    "description": "Distributed search and analytics engine with vector search support.",
+    "features": [
+      "full-text search",
+      "vector search",
+      "aggregations",
+      "distributed"
+    ],
+    "tags": [
+      "search-engine",
+      "vector-search",
+      "analytics"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.elastic.co",
+    "github": "https://github.com/elastic/elasticsearch",
+    "use_cases": [
+      "enterprise search",
+      "log analytics",
+      "hybrid RAG"
+    ],
+    "content": "Elasticsearch is a leading distributed search engine that supports both traditional full-text and modern vector similarity search.",
+    "embed_text": "Elasticsearch is an AI tool. Category: Vector Database. Distributed search and analytics engine with vector search support. Key features include full-text search, vector search, aggregations, distributed. Common use cases are enterprise search, log analytics, hybrid RAG. Pricing model: open-source.",
+    "logo_url": "https://cdn.simpleicons.org/elasticsearch"
+  },
+  {
+    "tool_name": "OpenSearch",
+    "category": "Vector Database",
+    "description": "Community-driven fork of Elasticsearch with vector search and analytics capabilities.",
+    "features": [
+      "vector search",
+      "full-text search",
+      "ML integration",
+      "dashboards"
+    ],
+    "tags": [
+      "search-engine",
+      "vector-search",
+      "open-source"
+    ],
+    "pricing": "open-source",
+    "website": "https://opensearch.org",
+    "github": "https://github.com/opensearch-project/OpenSearch",
+    "use_cases": [
+      "enterprise search",
+      "observability",
+      "RAG systems"
+    ],
+    "content": "OpenSearch is an Apache-licensed fork of Elasticsearch that supports neural search, vector indexing, and ML-based ranking.",
+    "embed_text": "OpenSearch is an AI tool. Category: Vector Database. Community-driven fork of Elasticsearch with vector search and analytics capabilities. Key features include vector search, full-text search, ML integration, dashboards. Common use cases are enterprise search, observability, RAG systems. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/opensearch-project?s=128"
+  },
+  {
+    "tool_name": "Meilisearch",
+    "category": "Vector Database",
+    "description": "Fast, typo-tolerant search engine with hybrid full-text and vector search.",
+    "features": [
+      "typo tolerance",
+      "vector search",
+      "instant search",
+      "filters"
+    ],
+    "tags": [
+      "search-engine",
+      "developer-friendly",
+      "fast"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.meilisearch.com",
+    "github": "https://github.com/meilisearch/meilisearch",
+    "use_cases": [
+      "product search",
+      "site search",
+      "hybrid retrieval"
+    ],
+    "content": "Meilisearch is a lightning-fast open-source search engine with built-in typo tolerance, faceting, and hybrid vector search.",
+    "embed_text": "Meilisearch is an AI tool. Category: Vector Database. Fast, typo-tolerant search engine with hybrid full-text and vector search. Key features include typo tolerance, vector search, instant search, filters. Common use cases are product search, site search, hybrid retrieval. Pricing model: open-source.",
+    "logo_url": "https://cdn.simpleicons.org/meilisearch"
+  },
+  {
+    "tool_name": "Typesense",
+    "category": "Vector Database",
+    "description": "Open-source typo-tolerant search engine designed for developer simplicity.",
+    "features": [
+      "typo tolerance",
+      "vector search",
+      "instant search",
+      "federated search"
+    ],
+    "tags": [
+      "search-engine",
+      "developer-friendly",
+      "self-hosted"
+    ],
+    "pricing": "open-source",
+    "website": "https://typesense.org",
+    "github": "https://github.com/typesense/typesense",
+    "use_cases": [
+      "e-commerce search",
+      "site search",
+      "autocomplete"
+    ],
+    "content": "Typesense is an open-source search engine that is easy to set up, typo-tolerant, and supports vector and hybrid search.",
+    "embed_text": "Typesense is an AI tool. Category: Vector Database. Open-source typo-tolerant search engine designed for developer simplicity. Key features include typo tolerance, vector search, instant search, federated search. Common use cases are e-commerce search, site search, autocomplete. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/typesense?s=128"
+  },
+  {
+    "tool_name": "Orama",
+    "category": "Vector Database",
+    "description": "Full-text and vector search engine that runs anywhere, including browsers and edge.",
+    "features": [
+      "client-side search",
+      "vector search",
+      "edge-compatible",
+      "TypeScript"
+    ],
+    "tags": [
+      "search-engine",
+      "browser",
+      "edge",
+      "typescript"
+    ],
+    "pricing": "open-source",
+    "website": "https://oramasearch.com",
+    "github": "https://github.com/oramasearch/orama",
+    "use_cases": [
+      "browser search",
+      "edge search",
+      "offline search"
+    ],
+    "content": "Orama is a full-text and vector search engine that works in browsers, Node.js, and edge environments with no dependencies.",
+    "embed_text": "Orama is an AI tool. Category: Vector Database. Full-text and vector search engine that runs anywhere, including browsers and edge. Key features include client-side search, vector search, edge-compatible, TypeScript. Common use cases are browser search, edge search, offline search. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/oramasearch?s=128"
+  },
+  {
+    "tool_name": "Redis",
+    "category": "Vector Database",
+    "description": "In-memory data store with vector similarity search capabilities via RedisSearch.",
+    "features": [
+      "in-memory",
+      "vector search",
+      "pub/sub",
+      "caching"
+    ],
+    "tags": [
+      "vector-database",
+      "caching",
+      "in-memory"
+    ],
+    "pricing": "open-source",
+    "website": "https://redis.io",
+    "github": "https://github.com/redis/redis",
+    "use_cases": [
+      "caching",
+      "vector search",
+      "session management"
+    ],
+    "content": "Redis with the RediSearch module provides fast in-memory vector similarity search alongside traditional caching and data structures.",
+    "embed_text": "Redis is an AI tool. Category: Vector Database. In-memory data store with vector similarity search capabilities via RedisSearch. Key features include in-memory, vector search, pub/sub, caching. Common use cases are caching, vector search, session management. Pricing model: open-source.",
+    "logo_url": "https://cdn.simpleicons.org/redis"
+  },
+  {
+    "tool_name": "Neo4j",
+    "category": "Vector Database",
+    "description": "Graph database with vector search support for knowledge graph and AI applications.",
+    "features": [
+      "graph database",
+      "vector index",
+      "Cypher query",
+      "knowledge graphs"
+    ],
+    "tags": [
+      "graph-database",
+      "vector-search",
+      "knowledge-graph"
+    ],
+    "pricing": "open-source",
+    "website": "https://neo4j.com",
+    "github": "https://github.com/neo4j/neo4j",
+    "use_cases": [
+      "knowledge graphs",
+      "graph RAG",
+      "relationship analysis"
+    ],
+    "content": "Neo4j is the leading graph database with built-in vector search, making it ideal for Graph RAG and knowledge graph applications.",
+    "embed_text": "Neo4j is an AI tool. Category: Vector Database. Graph database with vector search support for knowledge graph and AI applications. Key features include graph database, vector index, Cypher query, knowledge graphs. Common use cases are knowledge graphs, graph RAG, relationship analysis. Pricing model: open-source.",
+    "logo_url": "https://cdn.simpleicons.org/neo4j"
+  },
+  {
+    "tool_name": "AutoGPT",
+    "category": "AI Agent",
+    "description": "Experimental autonomous AI agent that chains LLM calls to complete long-horizon tasks.",
+    "features": [
+      "task chaining",
+      "web browsing",
+      "file operations",
+      "memory"
+    ],
+    "tags": [
+      "agents",
+      "autonomous-ai",
+      "automation"
+    ],
+    "pricing": "open-source",
+    "website": "https://agpt.co",
+    "github": "https://github.com/Significant-Gravitas/AutoGPT",
+    "use_cases": [
+      "autonomous task completion",
+      "research automation",
+      "AI experimentation"
+    ],
+    "content": "AutoGPT is a pioneering autonomous AI agent that uses GPT-4 to break down and complete complex tasks with minimal human intervention.",
+    "embed_text": "AutoGPT is an AI tool. Category: AI Agent. Experimental autonomous AI agent that chains LLM calls to complete long-horizon tasks. Key features include task chaining, web browsing, file operations, memory. Common use cases are autonomous task completion, research automation, AI experimentation. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/Significant-Gravitas?s=128"
+  },
+  {
+    "tool_name": "SuperAGI",
+    "category": "AI Agent",
+    "description": "Open-source autonomous AI agent framework for building, managing, and running AI agents.",
+    "features": [
+      "agent management",
+      "tools marketplace",
+      "GUI",
+      "concurrent agents"
+    ],
+    "tags": [
+      "agents",
+      "autonomous-ai",
+      "framework"
+    ],
+    "pricing": "open-source",
+    "website": "https://superagi.com",
+    "github": "https://github.com/TransformerOptimus/SuperAGI",
+    "use_cases": [
+      "autonomous workflows",
+      "agent development",
+      "task automation"
+    ],
+    "content": "SuperAGI is an open-source platform for building and running autonomous AI agents with a visual interface and extensive tooling.",
+    "embed_text": "SuperAGI is an AI tool. Category: AI Agent. Open-source autonomous AI agent framework for building, managing, and running AI agents. Key features include agent management, tools marketplace, GUI, concurrent agents. Common use cases are autonomous workflows, agent development, task automation. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/TransformerOptimus?s=128"
+  },
+  {
+    "tool_name": "AgentGPT",
+    "category": "AI Agent",
+    "description": "Browser-based autonomous AI agent platform for goal-driven task execution.",
+    "features": [
+      "browser UI",
+      "task planning",
+      "web search",
+      "goal decomposition"
+    ],
+    "tags": [
+      "agents",
+      "browser-based",
+      "autonomous-ai"
+    ],
+    "pricing": "open-source",
+    "website": "https://agentgpt.reworkd.ai",
+    "github": "https://github.com/reworkd/AgentGPT",
+    "use_cases": [
+      "autonomous research",
+      "task automation",
+      "goal-oriented AI"
+    ],
+    "content": "AgentGPT is a browser-based platform that lets users create and deploy autonomous AI agents to achieve specified goals.",
+    "embed_text": "AgentGPT is an AI tool. Category: AI Agent. Browser-based autonomous AI agent platform for goal-driven task execution. Key features include browser UI, task planning, web search, goal decomposition. Common use cases are autonomous research, task automation, goal-oriented AI. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/reworkd?s=128"
+  },
+  {
+    "tool_name": "browser-use",
+    "category": "AI Agent",
+    "description": "Library enabling AI agents to control web browsers for automation tasks.",
+    "features": [
+      "browser control",
+      "web automation",
+      "vision support",
+      "multi-agent"
+    ],
+    "tags": [
+      "agents",
+      "browser-automation",
+      "web-scraping"
+    ],
+    "pricing": "open-source",
+    "website": "https://browser-use.com",
+    "github": "https://github.com/browser-use/browser-use",
+    "use_cases": [
+      "web automation",
+      "data extraction",
+      "browser testing"
+    ],
+    "content": "browser-use enables LLM agents to control real web browsers using Python, supporting complex multi-step web automation tasks.",
+    "embed_text": "browser-use is an AI tool. Category: AI Agent. Library enabling AI agents to control web browsers for automation tasks. Key features include browser control, web automation, vision support, multi-agent. Common use cases are web automation, data extraction, browser testing. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/browser-use?s=128"
+  },
+  {
+    "tool_name": "Open Interpreter",
+    "category": "AI Agent",
+    "description": "Open-source code interpreter that lets LLMs run code on your local machine.",
+    "features": [
+      "code execution",
+      "multi-language",
+      "file system access",
+      "terminal UI"
+    ],
+    "tags": [
+      "agents",
+      "code-execution",
+      "local-ai"
+    ],
+    "pricing": "open-source",
+    "website": "https://openinterpreter.com",
+    "github": "https://github.com/OpenInterpreter/open-interpreter",
+    "use_cases": [
+      "local code execution",
+      "data analysis",
+      "file management"
+    ],
+    "content": "Open Interpreter gives LLMs a real code execution environment, allowing them to run Python, JS, shell commands, and more locally.",
+    "embed_text": "Open Interpreter is an AI tool. Category: AI Agent. Open-source code interpreter that lets LLMs run code on your local machine. Key features include code execution, multi-language, file system access, terminal UI. Common use cases are local code execution, data analysis, file management. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/OpenInterpreter?s=128"
+  },
+  {
+    "tool_name": "MetaGPT",
+    "category": "AI Agent",
+    "description": "Multi-agent framework that assigns LLMs to software company roles for collaborative development.",
+    "features": [
+      "role-based agents",
+      "SOP integration",
+      "software development",
+      "multi-agent"
+    ],
+    "tags": [
+      "agents",
+      "software-development",
+      "multi-agent"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.deepwisdom.ai",
+    "github": "https://github.com/geekan/MetaGPT",
+    "use_cases": [
+      "automated software development",
+      "project planning",
+      "code generation"
+    ],
+    "content": "MetaGPT assigns LLMs to roles like Product Manager, Engineer, and QA to collaboratively build software through multi-agent coordination.",
+    "embed_text": "MetaGPT is an AI tool. Category: AI Agent. Multi-agent framework that assigns LLMs to software company roles for collaborative development. Key features include role-based agents, SOP integration, software development, multi-agent. Common use cases are automated software development, project planning, code generation. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/geekan?s=128"
+  },
+  {
+    "tool_name": "SWE-agent",
+    "category": "AI Agent",
+    "description": "AI agent that autonomously solves GitHub issues by editing code repositories.",
+    "features": [
+      "GitHub integration",
+      "code editing",
+      "issue resolution",
+      "repo navigation"
+    ],
+    "tags": [
+      "agents",
+      "software-engineering",
+      "coding"
+    ],
+    "pricing": "open-source",
+    "website": "https://swe-agent.com",
+    "github": "https://github.com/princeton-nlp/SWE-agent",
+    "use_cases": [
+      "bug fixing",
+      "automated PR",
+      "software maintenance"
+    ],
+    "content": "SWE-agent is a research-grade AI agent from Princeton that autonomously resolves GitHub issues by navigating and editing codebases.",
+    "embed_text": "SWE-agent is an AI tool. Category: AI Agent. AI agent that autonomously solves GitHub issues by editing code repositories. Key features include GitHub integration, code editing, issue resolution, repo navigation. Common use cases are bug fixing, automated PR, software maintenance. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/princeton-nlp?s=128"
+  },
+  {
+    "tool_name": "Devin",
+    "category": "AI Agent",
+    "description": "AI software engineer capable of completing end-to-end engineering tasks autonomously.",
+    "features": [
+      "full codebase management",
+      "web browsing",
+      "terminal access",
+      "memory"
+    ],
+    "tags": [
+      "agents",
+      "software-engineering",
+      "commercial"
+    ],
+    "pricing": "paid",
+    "website": "https://devin.ai",
+    "github": "",
+    "use_cases": [
+      "software development",
+      "bug fixing",
+      "feature implementation"
+    ],
+    "content": "Devin by Cognition is a commercial AI software engineer that can independently plan and execute complex software engineering tasks.",
+    "embed_text": "Devin is an AI tool. Category: AI Agent. AI software engineer capable of completing end-to-end engineering tasks autonomously. Key features include full codebase management, web browsing, terminal access, memory. Common use cases are software development, bug fixing, feature implementation. Pricing model: paid.",
+    "logo_url": "https://www.google.com/s2/favicons?domain=devin.ai&sz=128"
+  },
+  {
+    "tool_name": "OWL",
+    "category": "AI Agent",
+    "description": "Open-source multi-agent framework for collaborative task completion with web capabilities.",
+    "features": [
+      "multi-agent",
+      "web browsing",
+      "tool use",
+      "task delegation"
+    ],
+    "tags": [
+      "agents",
+      "multi-agent",
+      "automation"
+    ],
+    "pricing": "open-source",
+    "website": "",
+    "github": "https://github.com/camel-ai/owl",
+    "use_cases": [
+      "web research",
+      "task automation",
+      "multi-agent workflows"
+    ],
+    "content": "OWL is an open-source multi-agent system built on CAMEL that enables collaborative AI agents with web and tool use capabilities.",
+    "embed_text": "OWL is an AI tool. Category: AI Agent. Open-source multi-agent framework for collaborative task completion with web capabilities. Key features include multi-agent, web browsing, tool use, task delegation. Common use cases are web research, task automation, multi-agent workflows. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/camel-ai?s=128"
+  },
+  {
+    "tool_name": "AgentOps",
+    "category": "AI Agent",
+    "description": "Observability and evaluation platform specifically built for AI agents.",
+    "features": [
+      "agent tracing",
+      "session replay",
+      "evaluation",
+      "cost tracking"
+    ],
+    "tags": [
+      "agents",
+      "observability",
+      "monitoring"
+    ],
+    "pricing": "freemium",
+    "website": "https://www.agentops.ai",
+    "github": "https://github.com/AgentOps-AI/agentops",
+    "use_cases": [
+      "agent debugging",
+      "performance monitoring",
+      "evaluation"
+    ],
+    "content": "AgentOps provides observability, testing, and evaluation tooling specifically designed for autonomous AI agent systems.",
+    "embed_text": "AgentOps is an AI tool. Category: AI Agent. Observability and evaluation platform specifically built for AI agents. Key features include agent tracing, session replay, evaluation, cost tracking. Common use cases are agent debugging, performance monitoring, evaluation. Pricing model: freemium.",
+    "logo_url": "https://avatars.githubusercontent.com/AgentOps-AI?s=128"
+  },
+  {
+    "tool_name": "A2A",
+    "category": "AI Agent",
+    "description": "Google's Agent-to-Agent protocol for standardizing communication between AI agents.",
+    "features": [
+      "agent protocol",
+      "interoperability",
+      "task delegation",
+      "multi-framework"
+    ],
+    "tags": [
+      "agents",
+      "protocol",
+      "google",
+      "interoperability"
+    ],
+    "pricing": "open-source",
+    "website": "https://google.github.io/A2A/",
+    "github": "https://github.com/google/A2A",
+    "use_cases": [
+      "agent interoperability",
+      "multi-framework agents",
+      "enterprise AI"
+    ],
+    "content": "A2A is Google's open protocol enabling seamless communication and task delegation between AI agents across different frameworks.",
+    "embed_text": "A2A is an AI tool. Category: AI Agent. Google's Agent-to-Agent protocol for standardizing communication between AI agents. Key features include agent protocol, interoperability, task delegation, multi-framework. Common use cases are agent interoperability, multi-framework agents, enterprise AI. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/google?s=128"
+  },
+  {
+    "tool_name": "PraisonAI",
+    "category": "AI Agent",
+    "description": "Low-code multi-agent AI framework for building and deploying AI agent workflows.",
+    "features": [
+      "multi-agent",
+      "low-code",
+      "CrewAI integration",
+      "AutoGen integration"
+    ],
+    "tags": [
+      "agents",
+      "low-code",
+      "multi-agent"
+    ],
+    "pricing": "open-source",
+    "website": "https://docs.praison.ai",
+    "github": "https://github.com/MervinPraison/PraisonAI",
+    "use_cases": [
+      "automated workflows",
+      "agent orchestration",
+      "AI task automation"
+    ],
+    "content": "PraisonAI is a low-code framework that simplifies building multi-agent AI systems using CrewAI and AutoGen under the hood.",
+    "embed_text": "PraisonAI is an AI tool. Category: AI Agent. Low-code multi-agent AI framework for building and deploying AI agent workflows. Key features include multi-agent, low-code, CrewAI integration, AutoGen integration. Common use cases are automated workflows, agent orchestration, AI task automation. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/MervinPraison?s=128"
+  },
+  {
+    "tool_name": "TaskingAI",
+    "category": "AI Agent",
+    "description": "Open-source platform for building AI native applications with agents and tool use.",
+    "features": [
+      "agent management",
+      "tool use",
+      "multi-model",
+      "API-first"
+    ],
+    "tags": [
+      "agents",
+      "platform",
+      "api-first"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.tasking.ai",
+    "github": "https://github.com/TaskingAI/TaskingAI",
+    "use_cases": [
+      "AI app development",
+      "agent deployment",
+      "enterprise AI"
+    ],
+    "content": "TaskingAI is an open-source platform for building AI-native apps with modular agents, tool calling, and multi-model LLM support.",
+    "embed_text": "TaskingAI is an AI tool. Category: AI Agent. Open-source platform for building AI native applications with agents and tool use. Key features include agent management, tool use, multi-model, API-first. Common use cases are AI app development, agent deployment, enterprise AI. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/TaskingAI?s=128"
+  },
+  {
+    "tool_name": "OpenAgents",
+    "category": "AI Agent",
+    "description": "Open platform for using and hosting language agents with real-world tools.",
+    "features": [
+      "data analysis agent",
+      "web browsing agent",
+      "plugin agent",
+      "web UI"
+    ],
+    "tags": [
+      "agents",
+      "platform",
+      "tools"
+    ],
+    "pricing": "open-source",
+    "website": "",
+    "github": "https://github.com/xlang-ai/OpenAgents",
+    "use_cases": [
+      "data analysis",
+      "web research",
+      "task automation"
+    ],
+    "content": "OpenAgents provides an open platform with deployable agents for data analysis, web browsing, and tool use with a chat interface.",
+    "embed_text": "OpenAgents is an AI tool. Category: AI Agent. Open platform for using and hosting language agents with real-world tools. Key features include data analysis agent, web browsing agent, plugin agent, web UI. Common use cases are data analysis, web research, task automation. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/xlang-ai?s=128"
+  },
+  {
+    "tool_name": "AgentVerse",
+    "category": "AI Agent",
+    "description": "Multi-agent simulation and collaboration framework for task-solving environments.",
+    "features": [
+      "simulation environment",
+      "multi-agent collaboration",
+      "task solving",
+      "evaluation"
+    ],
+    "tags": [
+      "agents",
+      "simulation",
+      "multi-agent",
+      "research"
+    ],
+    "pricing": "open-source",
+    "website": "",
+    "github": "https://github.com/OpenBMB/AgentVerse",
+    "use_cases": [
+      "agent simulation",
+      "collaborative problem solving",
+      "AI research"
+    ],
+    "content": "AgentVerse is a research framework for simulating multi-agent environments where agents collaborate and compete on various tasks.",
+    "embed_text": "AgentVerse is an AI tool. Category: AI Agent. Multi-agent simulation and collaboration framework for task-solving environments. Key features include simulation environment, multi-agent collaboration, task solving, evaluation. Common use cases are agent simulation, collaborative problem solving, AI research. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/OpenBMB?s=128"
+  },
+  {
+    "tool_name": "Langfuse",
+    "category": "LLM Ops",
+    "description": "Open-source LLM engineering platform for tracing, evaluation, and prompt management.",
+    "features": [
+      "tracing",
+      "evaluation",
+      "prompt management",
+      "datasets"
+    ],
+    "tags": [
+      "observability",
+      "llm-ops",
+      "evaluation"
+    ],
+    "pricing": "open-source",
+    "website": "https://langfuse.com",
+    "github": "https://github.com/langfuse/langfuse",
+    "use_cases": [
+      "LLM debugging",
+      "performance monitoring",
+      "evaluation pipelines"
+    ],
+    "content": "Langfuse is an open-source platform for observability, evaluation, and prompt management in LLM-powered applications.",
+    "embed_text": "Langfuse is an AI tool. Category: LLM Ops. Open-source LLM engineering platform for tracing, evaluation, and prompt management. Key features include tracing, evaluation, prompt management, datasets. Common use cases are LLM debugging, performance monitoring, evaluation pipelines. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/langfuse?s=128"
+  },
+  {
+    "tool_name": "Helicone",
+    "category": "LLM Ops",
+    "description": "Open-source LLM observability platform with proxy-based logging and analytics.",
+    "features": [
+      "proxy logging",
+      "cost tracking",
+      "caching",
+      "rate limiting"
+    ],
+    "tags": [
+      "observability",
+      "llm-ops",
+      "proxy"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.helicone.ai",
+    "github": "https://github.com/Helicone/helicone",
+    "use_cases": [
+      "API monitoring",
+      "cost management",
+      "LLM analytics"
+    ],
+    "content": "Helicone is an open-source proxy-based observability platform for tracking, analyzing, and optimizing LLM API usage and costs.",
+    "embed_text": "Helicone is an AI tool. Category: LLM Ops. Open-source LLM observability platform with proxy-based logging and analytics. Key features include proxy logging, cost tracking, caching, rate limiting. Common use cases are API monitoring, cost management, LLM analytics. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/Helicone?s=128"
+  },
+  {
+    "tool_name": "Phoenix",
+    "category": "LLM Ops",
+    "description": "Open-source AI observability platform by Arize for LLM and ML model evaluation.",
+    "features": [
+      "tracing",
+      "evals",
+      "RAG evaluation",
+      "embeddings visualization"
+    ],
+    "tags": [
+      "observability",
+      "evaluation",
+      "llm-ops"
+    ],
+    "pricing": "open-source",
+    "website": "https://phoenix.arize.com",
+    "github": "https://github.com/Arize-ai/phoenix",
+    "use_cases": [
+      "LLM tracing",
+      "RAG evaluation",
+      "model debugging"
+    ],
+    "content": "Phoenix by Arize is an open-source AI observability tool for evaluating and troubleshooting LLM and RAG application performance.",
+    "embed_text": "Phoenix is an AI tool. Category: LLM Ops. Open-source AI observability platform by Arize for LLM and ML model evaluation. Key features include tracing, evals, RAG evaluation, embeddings visualization. Common use cases are LLM tracing, RAG evaluation, model debugging. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/Arize-ai?s=128"
+  },
+  {
+    "tool_name": "LangSmith",
+    "category": "LLM Ops",
+    "description": "Developer platform by LangChain for debugging, testing, and monitoring LLM applications.",
+    "features": [
+      "tracing",
+      "evaluation",
+      "dataset management",
+      "prompt hub"
+    ],
+    "tags": [
+      "observability",
+      "llm-ops",
+      "langchain"
+    ],
+    "pricing": "freemium",
+    "website": "https://smith.langchain.com",
+    "github": "",
+    "use_cases": [
+      "LLM debugging",
+      "evaluation pipelines",
+      "prompt testing"
+    ],
+    "content": "LangSmith is LangChain's production platform for monitoring, evaluating, and improving LLM applications throughout the development lifecycle.",
+    "embed_text": "LangSmith is an AI tool. Category: LLM Ops. Developer platform by LangChain for debugging, testing, and monitoring LLM applications. Key features include tracing, evaluation, dataset management, prompt hub. Common use cases are LLM debugging, evaluation pipelines, prompt testing. Pricing model: freemium.",
+    "logo_url": "https://avatars.githubusercontent.com/langchain-ai?s=128"
+  },
+  {
+    "tool_name": "Opik",
+    "category": "LLM Ops",
+    "description": "Open-source LLM evaluation and observability platform by Comet.",
+    "features": [
+      "tracing",
+      "evaluation",
+      "prompt management",
+      "CI/CD integration"
+    ],
+    "tags": [
+      "observability",
+      "evaluation",
+      "llm-ops"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.comet.com/site/products/opik/",
+    "github": "https://github.com/comet-ml/opik",
+    "use_cases": [
+      "LLM evaluation",
+      "prompt testing",
+      "production monitoring"
+    ],
+    "content": "Opik by Comet is an open-source platform for tracing, evaluating, and improving LLM applications in development and production.",
+    "embed_text": "Opik is an AI tool. Category: LLM Ops. Open-source LLM evaluation and observability platform by Comet. Key features include tracing, evaluation, prompt management, CI/CD integration. Common use cases are LLM evaluation, prompt testing, production monitoring. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/comet-ml?s=128"
+  },
+  {
+    "tool_name": "RagaAI Catalyst",
+    "category": "LLM Ops",
+    "description": "AI testing and evaluation platform for RAG pipelines and LLM applications.",
+    "features": [
+      "RAG evaluation",
+      "automated testing",
+      "guardrails",
+      "CI/CD integration"
+    ],
+    "tags": [
+      "evaluation",
+      "rag",
+      "testing",
+      "llm-ops"
+    ],
+    "pricing": "freemium",
+    "website": "https://raga.ai",
+    "github": "https://github.com/raga-ai-hub/RagaAI-Catalyst",
+    "use_cases": [
+      "RAG quality assurance",
+      "LLM testing",
+      "production guardrails"
+    ],
+    "content": "RagaAI Catalyst is an evaluation and testing platform for RAG pipelines, providing automated quality metrics and guardrails.",
+    "embed_text": "RagaAI Catalyst is an AI tool. Category: LLM Ops. AI testing and evaluation platform for RAG pipelines and LLM applications. Key features include RAG evaluation, automated testing, guardrails, CI/CD integration. Common use cases are RAG quality assurance, LLM testing, production guardrails. Pricing model: freemium.",
+    "logo_url": "https://avatars.githubusercontent.com/raga-ai-hub?s=128"
+  },
+  {
+    "tool_name": "Promptfoo",
+    "category": "LLM Ops",
+    "description": "Open-source tool for testing and evaluating LLM prompts and model outputs.",
+    "features": [
+      "prompt testing",
+      "model comparison",
+      "CI/CD integration",
+      "red teaming"
+    ],
+    "tags": [
+      "evaluation",
+      "prompt-engineering",
+      "testing"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.promptfoo.dev",
+    "github": "https://github.com/promptfoo/promptfoo",
+    "use_cases": [
+      "prompt evaluation",
+      "model comparison",
+      "LLM security testing"
+    ],
+    "content": "Promptfoo is a developer tool for testing, comparing, and evaluating LLM outputs across prompts and model configurations.",
+    "embed_text": "Promptfoo is an AI tool. Category: LLM Ops. Open-source tool for testing and evaluating LLM prompts and model outputs. Key features include prompt testing, model comparison, CI/CD integration, red teaming. Common use cases are prompt evaluation, model comparison, LLM security testing. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/promptfoo?s=128"
+  },
+  {
+    "tool_name": "TruLens",
+    "category": "LLM Ops",
+    "description": "Open-source evaluation and tracking library for LLM and RAG applications.",
+    "features": [
+      "RAG triad evaluation",
+      "feedback functions",
+      "experiment tracking",
+      "dashboards"
+    ],
+    "tags": [
+      "evaluation",
+      "rag",
+      "observability"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.trulens.org",
+    "github": "https://github.com/truera/trulens",
+    "use_cases": [
+      "RAG evaluation",
+      "LLM quality monitoring",
+      "experimentation"
+    ],
+    "content": "TruLens provides evaluation and tracking for LLM apps using the RAG triad (context relevance, groundedness, answer relevance) and custom metrics.",
+    "embed_text": "TruLens is an AI tool. Category: LLM Ops. Open-source evaluation and tracking library for LLM and RAG applications. Key features include RAG triad evaluation, feedback functions, experiment tracking, dashboards. Common use cases are RAG evaluation, LLM quality monitoring, experimentation. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/truera?s=128"
+  },
+  {
+    "tool_name": "DeepEval",
+    "category": "LLM Ops",
+    "description": "Open-source LLM evaluation framework with 14+ built-in metrics for production use.",
+    "features": [
+      "14+ metrics",
+      "RAG evaluation",
+      "fine-tuning integration",
+      "CI/CD support"
+    ],
+    "tags": [
+      "evaluation",
+      "testing",
+      "llm-ops"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.confident-ai.com",
+    "github": "https://github.com/confident-ai/deepeval",
+    "use_cases": [
+      "LLM evaluation",
+      "RAG testing",
+      "model benchmarking"
+    ],
+    "content": "DeepEval is a comprehensive open-source LLM evaluation framework with built-in metrics for hallucination, relevance, bias, and RAG performance.",
+    "embed_text": "DeepEval is an AI tool. Category: LLM Ops. Open-source LLM evaluation framework with 14+ built-in metrics for production use. Key features include 14+ metrics, RAG evaluation, fine-tuning integration, CI/CD support. Common use cases are LLM evaluation, RAG testing, model benchmarking. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/confident-ai?s=128"
+  },
+  {
+    "tool_name": "Weights & Biases",
+    "category": "LLM Ops",
+    "description": "MLOps platform with LLM tracing, evaluation, and experiment tracking capabilities.",
+    "features": [
+      "experiment tracking",
+      "LLM tracing",
+      "model evaluation",
+      "artifact management"
+    ],
+    "tags": [
+      "mlops",
+      "experiment-tracking",
+      "llm-ops"
+    ],
+    "pricing": "freemium",
+    "website": "https://wandb.ai",
+    "github": "https://github.com/wandb/wandb",
+    "use_cases": [
+      "model training",
+      "LLM evaluation",
+      "ML experiment management"
+    ],
+    "content": "Weights & Biases is a leading MLOps platform offering experiment tracking, model evaluation, and LLM observability features.",
+    "embed_text": "Weights & Biases is an AI tool. Category: LLM Ops. MLOps platform with LLM tracing, evaluation, and experiment tracking capabilities. Key features include experiment tracking, LLM tracing, model evaluation, artifact management. Common use cases are model training, LLM evaluation, ML experiment management. Pricing model: freemium.",
+    "logo_url": "https://cdn.simpleicons.org/weightsandbiases"
+  },
+  {
+    "tool_name": "Chatbot UI",
+    "category": "AI Chat Interface",
+    "description": "Open-source ChatGPT-like UI for interacting with multiple LLM APIs.",
+    "features": [
+      "multi-model",
+      "conversation history",
+      "prompt templates",
+      "customizable"
+    ],
+    "tags": [
+      "chat-ui",
+      "open-source",
+      "self-hosted"
+    ],
+    "pricing": "open-source",
+    "website": "",
+    "github": "https://github.com/mckaywrigley/chatbot-ui",
+    "use_cases": [
+      "AI chat",
+      "multi-model access",
+      "self-hosted ChatGPT alternative"
+    ],
+    "content": "Chatbot UI is a popular open-source frontend for ChatGPT and other LLMs with support for multiple providers and conversation management.",
+    "embed_text": "Chatbot UI is an AI tool. Category: AI Chat Interface. Open-source ChatGPT-like UI for interacting with multiple LLM APIs. Key features include multi-model, conversation history, prompt templates, customizable. Common use cases are AI chat, multi-model access, self-hosted ChatGPT alternative. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/mckaywrigley?s=128"
+  },
+  {
+    "tool_name": "BetterChatGPT",
+    "category": "AI Chat Interface",
+    "description": "Enhanced browser-based ChatGPT interface with additional features and customization.",
+    "features": [
+      "prompt library",
+      "chat organization",
+      "custom API endpoint",
+      "export"
+    ],
+    "tags": [
+      "chat-ui",
+      "chatgpt",
+      "browser-based"
+    ],
+    "pricing": "open-source",
+    "website": "https://bettergpt.chat",
+    "github": "https://github.com/ztjhz/BetterChatGPT",
+    "use_cases": [
+      "AI chat",
+      "prompt management",
+      "ChatGPT enhancement"
+    ],
+    "content": "BetterChatGPT is a browser-based interface that enhances the ChatGPT experience with prompt libraries, folder organization, and API flexibility.",
+    "embed_text": "BetterChatGPT is an AI tool. Category: AI Chat Interface. Enhanced browser-based ChatGPT interface with additional features and customization. Key features include prompt library, chat organization, custom API endpoint, export. Common use cases are AI chat, prompt management, ChatGPT enhancement. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/ztjhz?s=128"
+  },
+  {
+    "tool_name": "Chatbox",
+    "category": "AI Chat Interface",
+    "description": "Desktop AI chat client supporting multiple LLM providers with local data storage.",
+    "features": [
+      "multi-model",
+      "desktop app",
+      "local storage",
+      "Markdown rendering"
+    ],
+    "tags": [
+      "chat-ui",
+      "desktop-app",
+      "multi-model"
+    ],
+    "pricing": "open-source",
+    "website": "https://chatboxai.app",
+    "github": "https://github.com/Bin-Huang/chatbox",
+    "use_cases": [
+      "AI chat",
+      "local LLM access",
+      "desktop assistant"
+    ],
+    "content": "Chatbox is a desktop application for using AI models from multiple providers with all conversation data stored locally.",
+    "embed_text": "Chatbox is an AI tool. Category: AI Chat Interface. Desktop AI chat client supporting multiple LLM providers with local data storage. Key features include multi-model, desktop app, local storage, Markdown rendering. Common use cases are AI chat, local LLM access, desktop assistant. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/Bin-Huang?s=128"
+  },
+  {
+    "tool_name": "ChatALL",
+    "category": "AI Chat Interface",
+    "description": "Chat with multiple AI bots simultaneously and compare responses side by side.",
+    "features": [
+      "multi-bot comparison",
+      "concurrent querying",
+      "response comparison",
+      "API support"
+    ],
+    "tags": [
+      "chat-ui",
+      "multi-model",
+      "comparison"
+    ],
+    "pricing": "open-source",
+    "website": "",
+    "github": "https://github.com/sunner/ChatALL",
+    "use_cases": [
+      "model comparison",
+      "AI research",
+      "best-answer selection"
+    ],
+    "content": "ChatALL lets users send the same query to multiple AI chatbots simultaneously and compare their responses side by side.",
+    "embed_text": "ChatALL is an AI tool. Category: AI Chat Interface. Chat with multiple AI bots simultaneously and compare responses side by side. Key features include multi-bot comparison, concurrent querying, response comparison, API support. Common use cases are model comparison, AI research, best-answer selection. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/sunner?s=128"
+  },
+  {
+    "tool_name": "ChuanhuChatGPT",
+    "category": "AI Chat Interface",
+    "description": "Web UI for ChatGPT and other LLMs with additional features like web search and file upload.",
+    "features": [
+      "web search",
+      "file upload",
+      "multi-model",
+      "conversation history"
+    ],
+    "tags": [
+      "chat-ui",
+      "gradio",
+      "multi-model"
+    ],
+    "pricing": "open-source",
+    "website": "",
+    "github": "https://github.com/GaiZhenbiao/ChuanhuChatGPT",
+    "use_cases": [
+      "AI chat",
+      "document QA",
+      "web-enhanced chat"
+    ],
+    "content": "ChuanhuChatGPT is a Gradio-based web interface for interacting with ChatGPT and other LLMs with extra features like web search.",
+    "embed_text": "ChuanhuChatGPT is an AI tool. Category: AI Chat Interface. Web UI for ChatGPT and other LLMs with additional features like web search and file upload. Key features include web search, file upload, multi-model, conversation history. Common use cases are AI chat, document QA, web-enhanced chat. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/GaiZhenbiao?s=128"
+  },
+  {
+    "tool_name": "LobeChat",
+    "category": "AI Chat Interface",
+    "description": "Modern, feature-rich open-source AI chat framework with plugin support.",
+    "features": [
+      "plugin system",
+      "multi-model",
+      "TTS/voice",
+      "image generation"
+    ],
+    "tags": [
+      "chat-ui",
+      "plugin-system",
+      "modern-ui"
+    ],
+    "pricing": "open-source",
+    "website": "https://lobechat.com",
+    "github": "https://github.com/lobehub/lobe-chat",
+    "use_cases": [
+      "AI chat",
+      "multimodal interaction",
+      "custom AI assistants"
+    ],
+    "content": "LobeChat is a modern open-source AI chat platform with a plugin ecosystem, multi-model support, voice, and image generation.",
+    "embed_text": "LobeChat is an AI tool. Category: AI Chat Interface. Modern, feature-rich open-source AI chat framework with plugin support. Key features include plugin system, multi-model, TTS/voice, image generation. Common use cases are AI chat, multimodal interaction, custom AI assistants. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/lobehub?s=128"
+  },
+  {
+    "tool_name": "Jan",
+    "category": "AI Chat Interface",
+    "description": "Open-source desktop app for running LLMs locally with offline support.",
+    "features": [
+      "local LLMs",
+      "offline mode",
+      "model hub",
+      "OpenAI API compatible"
+    ],
+    "tags": [
+      "chat-ui",
+      "local-ai",
+      "desktop-app"
+    ],
+    "pricing": "open-source",
+    "website": "https://jan.ai",
+    "github": "https://github.com/janhq/jan",
+    "use_cases": [
+      "local AI chat",
+      "offline inference",
+      "private AI"
+    ],
+    "content": "Jan is an open-source desktop app for running AI models locally with a clean UI, offline support, and OpenAI API compatibility.",
+    "embed_text": "Jan is an AI tool. Category: AI Chat Interface. Open-source desktop app for running LLMs locally with offline support. Key features include local LLMs, offline mode, model hub, OpenAI API compatible. Common use cases are local AI chat, offline inference, private AI. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/janhq?s=128"
+  },
+  {
+    "tool_name": "Big-AGI",
+    "category": "AI Chat Interface",
+    "description": "Feature-rich open-source AI chat suite for power users and teams.",
+    "features": [
+      "multi-model",
+      "personas",
+      "beam search",
+      "voice input"
+    ],
+    "tags": [
+      "chat-ui",
+      "power-users",
+      "multi-model"
+    ],
+    "pricing": "open-source",
+    "website": "https://big-agi.com",
+    "github": "https://github.com/enricoros/big-AGI",
+    "use_cases": [
+      "AI chat",
+      "team AI",
+      "power user workflows"
+    ],
+    "content": "Big-AGI is a feature-rich AI chat application designed for power users with multi-model support, personas, beam search, and voice.",
+    "embed_text": "Big-AGI is an AI tool. Category: AI Chat Interface. Feature-rich open-source AI chat suite for power users and teams. Key features include multi-model, personas, beam search, voice input. Common use cases are AI chat, team AI, power user workflows. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/enricoros?s=128"
+  },
+  {
+    "tool_name": "Continue",
+    "category": "AI Coding Tool",
+    "description": "Open-source AI code assistant IDE extension for VS Code and JetBrains.",
+    "features": [
+      "inline autocomplete",
+      "chat interface",
+      "codebase context",
+      "custom models"
+    ],
+    "tags": [
+      "coding-assistant",
+      "ide-extension",
+      "open-source"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.continue.dev",
+    "github": "https://github.com/continuedev/continue",
+    "use_cases": [
+      "code completion",
+      "code chat",
+      "refactoring"
+    ],
+    "content": "Continue is an open-source AI code assistant that integrates into VS Code and JetBrains with autocomplete, chat, and codebase context.",
+    "embed_text": "Continue is an AI tool. Category: AI Coding Tool. Open-source AI code assistant IDE extension for VS Code and JetBrains. Key features include inline autocomplete, chat interface, codebase context, custom models. Common use cases are code completion, code chat, refactoring. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/continuedev?s=128"
+  },
+  {
+    "tool_name": "Cursor",
+    "category": "AI Coding Tool",
+    "description": "AI-first code editor built on VS Code with deep LLM integration.",
+    "features": [
+      "AI autocomplete",
+      "chat with codebase",
+      "multi-file edits",
+      "custom models"
+    ],
+    "tags": [
+      "coding-assistant",
+      "ide",
+      "commercial"
+    ],
+    "pricing": "freemium",
+    "website": "https://www.cursor.com",
+    "github": "",
+    "use_cases": [
+      "code generation",
+      "refactoring",
+      "codebase exploration"
+    ],
+    "content": "Cursor is an AI-first code editor forked from VS Code that integrates LLMs deeply for autocomplete, chat, and multi-file editing.",
+    "embed_text": "Cursor is an AI tool. Category: AI Coding Tool. AI-first code editor built on VS Code with deep LLM integration. Key features include AI autocomplete, chat with codebase, multi-file edits, custom models. Common use cases are code generation, refactoring, codebase exploration. Pricing model: freemium.",
+    "logo_url": "https://cdn.simpleicons.org/cursor"
+  },
+  {
+    "tool_name": "Codeium",
+    "category": "AI Coding Tool",
+    "description": "Free AI code completion and chat tool for over 70 programming languages.",
+    "features": [
+      "code completion",
+      "chat",
+      "search",
+      "70+ languages"
+    ],
+    "tags": [
+      "coding-assistant",
+      "ide-extension",
+      "free"
+    ],
+    "pricing": "freemium",
+    "website": "https://codeium.com",
+    "github": "",
+    "use_cases": [
+      "code completion",
+      "developer productivity",
+      "multi-language support"
+    ],
+    "content": "Codeium provides free AI-powered code completion and chat for developers across 70+ languages and 40+ IDEs.",
+    "embed_text": "Codeium is an AI tool. Category: AI Coding Tool. Free AI code completion and chat tool for over 70 programming languages. Key features include code completion, chat, search, 70+ languages. Common use cases are code completion, developer productivity, multi-language support. Pricing model: freemium.",
+    "logo_url": "https://avatars.githubusercontent.com/codeium?s=128"
+  },
+  {
+    "tool_name": "Tabby",
+    "category": "AI Coding Tool",
+    "description": "Self-hosted open-source AI coding assistant with local model support.",
+    "features": [
+      "self-hosted",
+      "local models",
+      "IDE extensions",
+      "OpenAPI compatible"
+    ],
+    "tags": [
+      "coding-assistant",
+      "self-hosted",
+      "open-source"
+    ],
+    "pricing": "open-source",
+    "website": "https://tabby.tabbyml.com",
+    "github": "https://github.com/TabbyML/tabby",
+    "use_cases": [
+      "private code completion",
+      "self-hosted AI coding",
+      "enterprise coding"
+    ],
+    "content": "Tabby is a self-hosted open-source AI coding assistant that runs local models for code completion with IDE plugin support.",
+    "embed_text": "Tabby is an AI tool. Category: AI Coding Tool. Self-hosted open-source AI coding assistant with local model support. Key features include self-hosted, local models, IDE extensions, OpenAPI compatible. Common use cases are private code completion, self-hosted AI coding, enterprise coding. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/TabbyML?s=128"
+  },
+  {
+    "tool_name": "Aider",
+    "category": "AI Coding Tool",
+    "description": "AI pair programming CLI tool for editing code in your local git repository.",
+    "features": [
+      "git integration",
+      "multi-file edits",
+      "multi-model",
+      "terminal UI"
+    ],
+    "tags": [
+      "coding-assistant",
+      "cli",
+      "git"
+    ],
+    "pricing": "open-source",
+    "website": "https://aider.chat",
+    "github": "https://github.com/paul-gauthier/aider",
+    "use_cases": [
+      "AI pair programming",
+      "code refactoring",
+      "multi-file editing"
+    ],
+    "content": "Aider is a terminal-based AI pair programmer that integrates with git repos and uses LLMs to make changes across multiple files.",
+    "embed_text": "Aider is an AI tool. Category: AI Coding Tool. AI pair programming CLI tool for editing code in your local git repository. Key features include git integration, multi-file edits, multi-model, terminal UI. Common use cases are AI pair programming, code refactoring, multi-file editing. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/paul-gauthier?s=128"
+  },
+  {
+    "tool_name": "OpenHands",
+    "category": "AI Coding Tool",
+    "description": "Open-source platform for autonomous software engineering AI agents (formerly OpenDevin).",
+    "features": [
+      "code editing",
+      "web browsing",
+      "terminal access",
+      "multi-agent"
+    ],
+    "tags": [
+      "agents",
+      "software-engineering",
+      "autonomous-ai"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.all-hands.dev",
+    "github": "https://github.com/All-Hands-AI/OpenHands",
+    "use_cases": [
+      "autonomous coding",
+      "bug fixing",
+      "software development"
+    ],
+    "content": "OpenHands (formerly OpenDevin) is an open platform for AI software agents that can write code, browse the web, and run commands.",
+    "embed_text": "OpenHands is an AI tool. Category: AI Coding Tool. Open-source platform for autonomous software engineering AI agents (formerly OpenDevin). Key features include code editing, web browsing, terminal access, multi-agent. Common use cases are autonomous coding, bug fixing, software development. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/All-Hands-AI?s=128"
+  },
+  {
+    "tool_name": "PR-Agent",
+    "category": "AI Coding Tool",
+    "description": "AI-powered tool for automated code review and pull request management.",
+    "features": [
+      "automated review",
+      "PR description",
+      "code suggestions",
+      "multi-platform"
+    ],
+    "tags": [
+      "code-review",
+      "github",
+      "automation"
+    ],
+    "pricing": "open-source",
+    "website": "https://codium.ai/products/pr-agent/",
+    "github": "https://github.com/Codium-ai/pr-agent",
+    "use_cases": [
+      "automated code review",
+      "PR management",
+      "code quality"
+    ],
+    "content": "PR-Agent automates pull request code reviews, generates descriptions, and provides improvement suggestions using LLMs.",
+    "embed_text": "PR-Agent is an AI tool. Category: AI Coding Tool. AI-powered tool for automated code review and pull request management. Key features include automated review, PR description, code suggestions, multi-platform. Common use cases are automated code review, PR management, code quality. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/Codium-ai?s=128"
+  },
+  {
+    "tool_name": "Sweep",
+    "category": "AI Coding Tool",
+    "description": "AI coding assistant that turns GitHub issues into pull requests automatically.",
+    "features": [
+      "GitHub integration",
+      "automated PRs",
+      "issue resolution",
+      "code search"
+    ],
+    "tags": [
+      "coding-assistant",
+      "github",
+      "automation"
+    ],
+    "pricing": "open-source",
+    "website": "https://sweep.dev",
+    "github": "https://github.com/sweepai/sweep",
+    "use_cases": [
+      "automated PRs",
+      "bug fixing",
+      "feature implementation"
+    ],
+    "content": "Sweep is an AI GitHub assistant that converts issues and bug reports into ready-to-merge pull requests automatically.",
+    "embed_text": "Sweep is an AI tool. Category: AI Coding Tool. AI coding assistant that turns GitHub issues into pull requests automatically. Key features include GitHub integration, automated PRs, issue resolution, code search. Common use cases are automated PRs, bug fixing, feature implementation. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/sweepai?s=128"
+  },
+  {
+    "tool_name": "Cline",
+    "category": "AI Coding Tool",
+    "description": "Autonomous AI coding agent as a VS Code extension with browser and terminal access.",
+    "features": [
+      "VS Code extension",
+      "file editing",
+      "terminal use",
+      "browser control"
+    ],
+    "tags": [
+      "coding-assistant",
+      "ide-extension",
+      "autonomous-ai"
+    ],
+    "pricing": "open-source",
+    "website": "",
+    "github": "https://github.com/cline/cline",
+    "use_cases": [
+      "autonomous coding",
+      "full-stack development",
+      "task automation"
+    ],
+    "content": "Cline is a VS Code extension providing an autonomous AI coding agent with access to the file system, terminal, and browser.",
+    "embed_text": "Cline is an AI tool. Category: AI Coding Tool. Autonomous AI coding agent as a VS Code extension with browser and terminal access. Key features include VS Code extension, file editing, terminal use, browser control. Common use cases are autonomous coding, full-stack development, task automation. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/cline?s=128"
+  },
+  {
+    "tool_name": "Windsurf",
+    "category": "AI Coding Tool",
+    "description": "AI-powered code editor with agentic flows by Codeium.",
+    "features": [
+      "agentic coding",
+      "multi-file edits",
+      "context awareness",
+      "cascade agent"
+    ],
+    "tags": [
+      "ide",
+      "coding-assistant",
+      "agentic"
+    ],
+    "pricing": "freemium",
+    "website": "https://windsurf.com",
+    "github": "",
+    "use_cases": [
+      "agentic code editing",
+      "software development",
+      "AI pair programming"
+    ],
+    "content": "Windsurf is Codeium's AI-native code editor with a Cascade agent for multi-file agentic coding workflows.",
+    "embed_text": "Windsurf is an AI tool. Category: AI Coding Tool. AI-powered code editor with agentic flows by Codeium. Key features include agentic coding, multi-file edits, context awareness, cascade agent. Common use cases are agentic code editing, software development, AI pair programming. Pricing model: freemium.",
+    "logo_url": "https://cdn.simpleicons.org/windsurf"
+  },
+  {
+    "tool_name": "Ollama",
+    "category": "AI Infrastructure",
+    "description": "Tool for running large language models locally with a simple command-line interface.",
+    "features": [
+      "local model running",
+      "REST API",
+      "model library",
+      "GPU support"
+    ],
+    "tags": [
+      "local-ai",
+      "model-serving",
+      "cli"
+    ],
+    "pricing": "open-source",
+    "website": "https://ollama.com",
+    "github": "https://github.com/ollama/ollama",
+    "use_cases": [
+      "local LLM serving",
+      "offline AI",
+      "development"
+    ],
+    "content": "Ollama makes it easy to run open-source LLMs locally with a simple CLI and REST API, supporting GPU acceleration.",
+    "embed_text": "Ollama is an AI tool. Category: AI Infrastructure. Tool for running large language models locally with a simple command-line interface. Key features include local model running, REST API, model library, GPU support. Common use cases are local LLM serving, offline AI, development. Pricing model: open-source.",
+    "logo_url": "https://cdn.simpleicons.org/ollama"
+  },
+  {
+    "tool_name": "vLLM",
+    "category": "AI Infrastructure",
+    "description": "High-throughput LLM inference engine with PagedAttention for efficient GPU serving.",
+    "features": [
+      "PagedAttention",
+      "continuous batching",
+      "OpenAI-compatible API",
+      "quantization"
+    ],
+    "tags": [
+      "model-serving",
+      "inference",
+      "high-performance"
+    ],
+    "pricing": "open-source",
+    "website": "https://vllm.ai",
+    "github": "https://github.com/vllm-project/vllm",
+    "use_cases": [
+      "high-throughput inference",
+      "LLM deployment",
+      "production serving"
+    ],
+    "content": "vLLM is a fast LLM inference and serving engine using PagedAttention for efficient GPU memory management and high throughput.",
+    "embed_text": "vLLM is an AI tool. Category: AI Infrastructure. High-throughput LLM inference engine with PagedAttention for efficient GPU serving. Key features include PagedAttention, continuous batching, OpenAI-compatible API, quantization. Common use cases are high-throughput inference, LLM deployment, production serving. Pricing model: open-source.",
+    "logo_url": "https://cdn.simpleicons.org/vllm"
+  },
+  {
+    "tool_name": "Text Generation Inference",
+    "category": "AI Infrastructure",
+    "description": "Hugging Face's production-ready LLM serving toolkit with optimized inference.",
+    "features": [
+      "quantization",
+      "streaming",
+      "OpenAI-compatible API",
+      "tensor parallelism"
+    ],
+    "tags": [
+      "model-serving",
+      "inference",
+      "huggingface"
+    ],
+    "pricing": "open-source",
+    "website": "https://huggingface.co/docs/text-generation-inference",
+    "github": "https://github.com/huggingface/text-generation-inference",
+    "use_cases": [
+      "LLM serving",
+      "production inference",
+      "Hugging Face models"
+    ],
+    "content": "TGI is Hugging Face's high-performance inference server for deploying LLMs in production with quantization and streaming.",
+    "embed_text": "Text Generation Inference is an AI tool. Category: AI Infrastructure. Hugging Face's production-ready LLM serving toolkit with optimized inference. Key features include quantization, streaming, OpenAI-compatible API, tensor parallelism. Common use cases are LLM serving, production inference, Hugging Face models. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/huggingface?s=128"
+  },
+  {
+    "tool_name": "LM Studio",
+    "category": "AI Infrastructure",
+    "description": "Desktop app for discovering, downloading, and running LLMs locally.",
+    "features": [
+      "model discovery",
+      "local inference",
+      "OpenAI-compatible server",
+      "chat UI"
+    ],
+    "tags": [
+      "local-ai",
+      "desktop-app",
+      "model-serving"
+    ],
+    "pricing": "free",
+    "website": "https://lmstudio.ai",
+    "github": "",
+    "use_cases": [
+      "local LLM experimentation",
+      "offline AI",
+      "developer testing"
+    ],
+    "content": "LM Studio is a desktop application for discovering, downloading, and running open-source LLMs locally with a built-in chat and API server.",
+    "embed_text": "LM Studio is an AI tool. Category: AI Infrastructure. Desktop app for discovering, downloading, and running LLMs locally. Key features include model discovery, local inference, OpenAI-compatible server, chat UI. Common use cases are local LLM experimentation, offline AI, developer testing. Pricing model: free.",
+    "logo_url": "https://www.google.com/s2/favicons?domain=lmstudio.ai&sz=128"
+  },
+  {
+    "tool_name": "FastChat",
+    "category": "AI Infrastructure",
+    "description": "Open platform for training, serving, and evaluating LLM-based chatbots.",
+    "features": [
+      "multi-model serving",
+      "OpenAI-compatible API",
+      "evaluation",
+      "web UI"
+    ],
+    "tags": [
+      "model-serving",
+      "training",
+      "evaluation"
+    ],
+    "pricing": "open-source",
+    "website": "",
+    "github": "https://github.com/lm-sys/FastChat",
+    "use_cases": [
+      "LLM serving",
+      "model evaluation",
+      "chatbot deployment"
+    ],
+    "content": "FastChat is an open platform for deploying, serving, and evaluating LLMs with an OpenAI-compatible API and gradio-based web UI.",
+    "embed_text": "FastChat is an AI tool. Category: AI Infrastructure. Open platform for training, serving, and evaluating LLM-based chatbots. Key features include multi-model serving, OpenAI-compatible API, evaluation, web UI. Common use cases are LLM serving, model evaluation, chatbot deployment. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/lm-sys?s=128"
+  },
+  {
+    "tool_name": "llama.cpp",
+    "category": "AI Infrastructure",
+    "description": "Efficient LLM inference in C++ for running quantized models on CPU and GPU.",
+    "features": [
+      "CPU inference",
+      "quantization",
+      "GGUF format",
+      "cross-platform"
+    ],
+    "tags": [
+      "inference",
+      "local-ai",
+      "cpp",
+      "quantization"
+    ],
+    "pricing": "open-source",
+    "website": "",
+    "github": "https://github.com/ggerganov/llama.cpp",
+    "use_cases": [
+      "edge inference",
+      "local AI",
+      "quantized model deployment"
+    ],
+    "content": "llama.cpp is a C++ inference engine for running quantized LLMs efficiently on CPU and GPU, making local AI accessible on consumer hardware.",
+    "embed_text": "llama.cpp is an AI tool. Category: AI Infrastructure. Efficient LLM inference in C++ for running quantized models on CPU and GPU. Key features include CPU inference, quantization, GGUF format, cross-platform. Common use cases are edge inference, local AI, quantized model deployment. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/ggerganov?s=128"
+  },
+  {
+    "tool_name": "MLC LLM",
+    "category": "AI Infrastructure",
+    "description": "Universal LLM deployment engine for running models on diverse hardware backends.",
+    "features": [
+      "cross-platform",
+      "iOS/Android",
+      "WebGPU",
+      "quantization"
+    ],
+    "tags": [
+      "inference",
+      "mobile",
+      "cross-platform",
+      "webgpu"
+    ],
+    "pricing": "open-source",
+    "website": "https://llm.mlc.ai",
+    "github": "https://github.com/mlc-ai/mlc-llm",
+    "use_cases": [
+      "mobile AI",
+      "browser AI",
+      "edge deployment"
+    ],
+    "content": "MLC LLM enables universal deployment of LLMs across iOS, Android, web browsers, and desktop with hardware-native optimization.",
+    "embed_text": "MLC LLM is an AI tool. Category: AI Infrastructure. Universal LLM deployment engine for running models on diverse hardware backends. Key features include cross-platform, iOS/Android, WebGPU, quantization. Common use cases are mobile AI, browser AI, edge deployment. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/mlc-ai?s=128"
+  },
+  {
+    "tool_name": "IPEX-LLM",
+    "category": "AI Infrastructure",
+    "description": "Intel's library for running LLMs efficiently on Intel CPUs and GPUs.",
+    "features": [
+      "Intel optimization",
+      "quantization",
+      "low-latency",
+      "LangChain integration"
+    ],
+    "tags": [
+      "inference",
+      "intel",
+      "optimization"
+    ],
+    "pricing": "open-source",
+    "website": "https://ipex-llm.readthedocs.io",
+    "github": "https://github.com/intel-analytics/ipex-llm",
+    "use_cases": [
+      "Intel GPU inference",
+      "low-latency serving",
+      "enterprise AI on Intel"
+    ],
+    "content": "IPEX-LLM is Intel's library for accelerating LLM inference on Intel CPUs and GPUs with optimized quantization and low latency.",
+    "embed_text": "IPEX-LLM is an AI tool. Category: AI Infrastructure. Intel's library for running LLMs efficiently on Intel CPUs and GPUs. Key features include Intel optimization, quantization, low-latency, LangChain integration. Common use cases are Intel GPU inference, low-latency serving, enterprise AI on Intel. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/intel-analytics?s=128"
+  },
+  {
+    "tool_name": "TensorRT-LLM",
+    "category": "AI Infrastructure",
+    "description": "NVIDIA's library for optimizing and deploying LLMs on TensorRT for maximum GPU performance.",
+    "features": [
+      "TensorRT optimization",
+      "in-flight batching",
+      "quantization",
+      "multi-GPU"
+    ],
+    "tags": [
+      "inference",
+      "nvidia",
+      "gpu",
+      "optimization"
+    ],
+    "pricing": "open-source",
+    "website": "https://nvidia.github.io/TensorRT-LLM/",
+    "github": "https://github.com/NVIDIA/TensorRT-LLM",
+    "use_cases": [
+      "high-performance inference",
+      "enterprise LLM serving",
+      "NVIDIA GPU deployment"
+    ],
+    "content": "TensorRT-LLM is NVIDIA's toolkit for compiling and optimizing LLMs using TensorRT for maximum inference throughput on NVIDIA GPUs.",
+    "embed_text": "TensorRT-LLM is an AI tool. Category: AI Infrastructure. NVIDIA's library for optimizing and deploying LLMs on TensorRT for maximum GPU performance. Key features include TensorRT optimization, in-flight batching, quantization, multi-GPU. Common use cases are high-performance inference, enterprise LLM serving, NVIDIA GPU deployment. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/NVIDIA?s=128"
+  },
+  {
+    "tool_name": "OpenLLM",
+    "category": "AI Infrastructure",
+    "description": "Open-source platform for running and deploying LLMs in production.",
+    "features": [
+      "model serving",
+      "OpenAI-compatible API",
+      "cloud deployment",
+      "quantization"
+    ],
+    "tags": [
+      "model-serving",
+      "deployment",
+      "cloud"
+    ],
+    "pricing": "open-source",
+    "website": "https://bentoml.com",
+    "github": "https://github.com/bentoml/OpenLLM",
+    "use_cases": [
+      "LLM serving",
+      "cloud deployment",
+      "model management"
+    ],
+    "content": "OpenLLM by BentoML is a platform for serving open-source LLMs in production with fine-tuning, quantization, and cloud deployment.",
+    "embed_text": "OpenLLM is an AI tool. Category: AI Infrastructure. Open-source platform for running and deploying LLMs in production. Key features include model serving, OpenAI-compatible API, cloud deployment, quantization. Common use cases are LLM serving, cloud deployment, model management. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/bentoml?s=128"
+  },
+  {
+    "tool_name": "ComfyUI",
+    "category": "Multimodal / Vision / Speech",
+    "description": "Powerful node-based GUI for Stable Diffusion image generation workflows.",
+    "features": [
+      "node-based workflow",
+      "Stable Diffusion",
+      "ControlNet",
+      "video generation"
+    ],
+    "tags": [
+      "image-generation",
+      "stable-diffusion",
+      "workflow-builder"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.comfy.org",
+    "github": "https://github.com/comfyanonymous/ComfyUI",
+    "use_cases": [
+      "image generation",
+      "video generation",
+      "advanced SD workflows"
+    ],
+    "content": "ComfyUI is a node-based visual workflow builder for Stable Diffusion, allowing complex multi-step image and video generation pipelines.",
+    "embed_text": "ComfyUI is an AI tool. Category: Multimodal / Vision / Speech. Powerful node-based GUI for Stable Diffusion image generation workflows. Key features include node-based workflow, Stable Diffusion, ControlNet, video generation. Common use cases are image generation, video generation, advanced SD workflows. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/comfyanonymous?s=128"
+  },
+  {
+    "tool_name": "InvokeAI",
+    "category": "Multimodal / Vision / Speech",
+    "description": "Professional creative AI tool for Stable Diffusion with a polished UI.",
+    "features": [
+      "canvas editor",
+      "ControlNet",
+      "model management",
+      "node workflow"
+    ],
+    "tags": [
+      "image-generation",
+      "stable-diffusion",
+      "creative-ai"
+    ],
+    "pricing": "open-source",
+    "website": "https://invoke.ai",
+    "github": "https://github.com/invoke-ai/InvokeAI",
+    "use_cases": [
+      "creative image generation",
+      "professional art",
+      "visual content creation"
+    ],
+    "content": "InvokeAI is a polished Stable Diffusion interface with a canvas editor, ControlNet support, and professional workflow management.",
+    "embed_text": "InvokeAI is an AI tool. Category: Multimodal / Vision / Speech. Professional creative AI tool for Stable Diffusion with a polished UI. Key features include canvas editor, ControlNet, model management, node workflow. Common use cases are creative image generation, professional art, visual content creation. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/invoke-ai?s=128"
+  },
+  {
+    "tool_name": "Automatic1111",
+    "category": "Multimodal / Vision / Speech",
+    "description": "Feature-rich Stable Diffusion web UI with extensive extension support.",
+    "features": [
+      "txt2img",
+      "img2img",
+      "inpainting",
+      "300+ extensions"
+    ],
+    "tags": [
+      "image-generation",
+      "stable-diffusion",
+      "web-ui"
+    ],
+    "pricing": "open-source",
+    "website": "",
+    "github": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "use_cases": [
+      "image generation",
+      "image editing",
+      "AI art creation"
+    ],
+    "content": "Automatic1111's Stable Diffusion Web UI is the most widely used SD interface with hundreds of extensions and comprehensive features.",
+    "embed_text": "Automatic1111 is an AI tool. Category: Multimodal / Vision / Speech. Feature-rich Stable Diffusion web UI with extensive extension support. Key features include txt2img, img2img, inpainting, 300+ extensions. Common use cases are image generation, image editing, AI art creation. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/AUTOMATIC1111?s=128"
+  },
+  {
+    "tool_name": "Fooocus",
+    "category": "Multimodal / Vision / Speech",
+    "description": "Simplified Stable Diffusion interface focused on ease of use and quality output.",
+    "features": [
+      "simplified UI",
+      "SDXL support",
+      "automatic optimization",
+      "style presets"
+    ],
+    "tags": [
+      "image-generation",
+      "stable-diffusion",
+      "beginner-friendly"
+    ],
+    "pricing": "open-source",
+    "website": "",
+    "github": "https://github.com/lllyasviel/Fooocus",
+    "use_cases": [
+      "AI image generation",
+      "creative art",
+      "beginner-friendly SD"
+    ],
+    "content": "Fooocus provides a simplified Stable Diffusion experience with automatic parameter optimization and high-quality output presets.",
+    "embed_text": "Fooocus is an AI tool. Category: Multimodal / Vision / Speech. Simplified Stable Diffusion interface focused on ease of use and quality output. Key features include simplified UI, SDXL support, automatic optimization, style presets. Common use cases are AI image generation, creative art, beginner-friendly SD. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/lllyasviel?s=128"
+  },
+  {
+    "tool_name": "Whisper",
+    "category": "Multimodal / Vision / Speech",
+    "description": "OpenAI's state-of-the-art automatic speech recognition model.",
+    "features": [
+      "multilingual",
+      "speech-to-text",
+      "translation",
+      "multiple model sizes"
+    ],
+    "tags": [
+      "speech-recognition",
+      "asr",
+      "openai"
+    ],
+    "pricing": "open-source",
+    "website": "https://openai.com/research/whisper",
+    "github": "https://github.com/openai/whisper",
+    "use_cases": [
+      "transcription",
+      "subtitle generation",
+      "voice assistants"
+    ],
+    "content": "Whisper is OpenAI's robust ASR model that supports multilingual speech recognition and translation across 99 languages.",
+    "embed_text": "Whisper is an AI tool. Category: Multimodal / Vision / Speech. OpenAI's state-of-the-art automatic speech recognition model. Key features include multilingual, speech-to-text, translation, multiple model sizes. Common use cases are transcription, subtitle generation, voice assistants. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/openai?s=128"
+  },
+  {
+    "tool_name": "Coqui TTS",
+    "category": "Multimodal / Vision / Speech",
+    "description": "Open-source text-to-speech library with multiple TTS models and voice cloning.",
+    "features": [
+      "voice cloning",
+      "multi-language",
+      "multiple TTS models",
+      "fine-tuning"
+    ],
+    "tags": [
+      "tts",
+      "voice-synthesis",
+      "open-source"
+    ],
+    "pricing": "open-source",
+    "website": "https://coqui.ai",
+    "github": "https://github.com/coqui-ai/TTS",
+    "use_cases": [
+      "voice synthesis",
+      "voice cloning",
+      "audio content creation"
+    ],
+    "content": "Coqui TTS is a production-ready open-source text-to-speech library with support for voice cloning, multiple models, and many languages.",
+    "embed_text": "Coqui TTS is an AI tool. Category: Multimodal / Vision / Speech. Open-source text-to-speech library with multiple TTS models and voice cloning. Key features include voice cloning, multi-language, multiple TTS models, fine-tuning. Common use cases are voice synthesis, voice cloning, audio content creation. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/coqui-ai?s=128"
+  },
+  {
+    "tool_name": "XTTS",
+    "category": "Multimodal / Vision / Speech",
+    "description": "Cross-lingual voice cloning TTS model capable of generating speech from 3-second samples.",
+    "features": [
+      "voice cloning",
+      "3-second sample",
+      "multilingual",
+      "streaming"
+    ],
+    "tags": [
+      "tts",
+      "voice-cloning",
+      "multilingual"
+    ],
+    "pricing": "open-source",
+    "website": "https://coqui.ai/blog/tts/xtts_taking_tts_to_the_next_level",
+    "github": "https://github.com/coqui-ai/TTS",
+    "use_cases": [
+      "voice cloning",
+      "multilingual TTS",
+      "custom voice synthesis"
+    ],
+    "content": "XTTS by Coqui enables high-quality cross-lingual voice cloning from a 3-second audio sample across multiple languages.",
+    "embed_text": "XTTS is an AI tool. Category: Multimodal / Vision / Speech. Cross-lingual voice cloning TTS model capable of generating speech from 3-second samples. Key features include voice cloning, 3-second sample, multilingual, streaming. Common use cases are voice cloning, multilingual TTS, custom voice synthesis. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/coqui-ai?s=128"
+  },
+  {
+    "tool_name": "NeRFStudio",
+    "category": "Multimodal / Vision / Speech",
+    "description": "Framework for training and rendering Neural Radiance Fields (NeRF) scenes.",
+    "features": [
+      "NeRF training",
+      "3D scene reconstruction",
+      "viewer",
+      "multiple NeRF methods"
+    ],
+    "tags": [
+      "nerf",
+      "3d-reconstruction",
+      "computer-vision"
+    ],
+    "pricing": "open-source",
+    "website": "https://docs.nerf.studio",
+    "github": "https://github.com/nerfstudio-project/nerfstudio",
+    "use_cases": [
+      "3D scene capture",
+      "novel view synthesis",
+      "AR/VR content"
+    ],
+    "content": "NeRFStudio is a modular framework for training, visualizing, and exporting Neural Radiance Field scenes from image collections.",
+    "embed_text": "NeRFStudio is an AI tool. Category: Multimodal / Vision / Speech. Framework for training and rendering Neural Radiance Fields (NeRF) scenes. Key features include NeRF training, 3D scene reconstruction, viewer, multiple NeRF methods. Common use cases are 3D scene capture, novel view synthesis, AR/VR content. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/nerfstudio-project?s=128"
+  },
+  {
+    "tool_name": "Segment Anything",
+    "category": "Multimodal / Vision / Speech",
+    "description": "Meta's foundation model for promptable image segmentation.",
+    "features": [
+      "promptable segmentation",
+      "zero-shot",
+      "multi-object",
+      "interactive"
+    ],
+    "tags": [
+      "computer-vision",
+      "segmentation",
+      "meta-ai"
+    ],
+    "pricing": "open-source",
+    "website": "https://segment-anything.com",
+    "github": "https://github.com/facebookresearch/segment-anything",
+    "use_cases": [
+      "image segmentation",
+      "object detection",
+      "visual AI"
+    ],
+    "content": "Segment Anything Model (SAM) by Meta is a foundation model for promptable, zero-shot image segmentation tasks.",
+    "embed_text": "Segment Anything is an AI tool. Category: Multimodal / Vision / Speech. Meta's foundation model for promptable image segmentation. Key features include promptable segmentation, zero-shot, multi-object, interactive. Common use cases are image segmentation, object detection, visual AI. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/facebookresearch?s=128"
+  },
+  {
+    "tool_name": "Grounding DINO",
+    "category": "Multimodal / Vision / Speech",
+    "description": "Open-set object detection model combining DINO with grounded pre-training.",
+    "features": [
+      "open-set detection",
+      "text-prompted detection",
+      "zero-shot",
+      "grounding"
+    ],
+    "tags": [
+      "computer-vision",
+      "object-detection",
+      "grounding"
+    ],
+    "pricing": "open-source",
+    "website": "",
+    "github": "https://github.com/IDEA-Research/GroundingDINO",
+    "use_cases": [
+      "open-vocabulary detection",
+      "visual grounding",
+      "zero-shot recognition"
+    ],
+    "content": "Grounding DINO is an open-set object detector that takes natural language descriptions to detect objects in images without task-specific training.",
+    "embed_text": "Grounding DINO is an AI tool. Category: Multimodal / Vision / Speech. Open-set object detection model combining DINO with grounded pre-training. Key features include open-set detection, text-prompted detection, zero-shot, grounding. Common use cases are open-vocabulary detection, visual grounding, zero-shot recognition. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/IDEA-Research?s=128"
+  },
+  {
+    "tool_name": "n8n",
+    "category": "Automation / Workflow",
+    "description": "Extendable workflow automation tool with a visual node-based editor.",
+    "features": [
+      "visual workflow",
+      "400+ integrations",
+      "self-hosted",
+      "code nodes"
+    ],
+    "tags": [
+      "automation",
+      "workflow",
+      "integration"
+    ],
+    "pricing": "open-source",
+    "website": "https://n8n.io",
+    "github": "https://github.com/n8n-io/n8n",
+    "use_cases": [
+      "workflow automation",
+      "API integration",
+      "business process automation"
+    ],
+    "content": "n8n is a powerful open-source workflow automation platform with 400+ integrations and a visual node-based editor for complex automations.",
+    "embed_text": "n8n is an AI tool. Category: Automation / Workflow. Extendable workflow automation tool with a visual node-based editor. Key features include visual workflow, 400+ integrations, self-hosted, code nodes. Common use cases are workflow automation, API integration, business process automation. Pricing model: open-source.",
+    "logo_url": "https://cdn.simpleicons.org/n8n"
+  },
+  {
+    "tool_name": "Apache Airflow",
+    "category": "Automation / Workflow",
+    "description": "Platform for programmatically authoring, scheduling, and monitoring data workflows.",
+    "features": [
+      "DAG-based workflows",
+      "scheduling",
+      "monitoring",
+      "extensive operators"
+    ],
+    "tags": [
+      "data-pipeline",
+      "orchestration",
+      "scheduling"
+    ],
+    "pricing": "open-source",
+    "website": "https://airflow.apache.org",
+    "github": "https://github.com/apache/airflow",
+    "use_cases": [
+      "ETL pipelines",
+      "data engineering",
+      "ML pipeline orchestration"
+    ],
+    "content": "Apache Airflow is the industry standard for orchestrating data pipelines using Python-defined DAGs with extensive scheduling and monitoring.",
+    "embed_text": "Apache Airflow is an AI tool. Category: Automation / Workflow. Platform for programmatically authoring, scheduling, and monitoring data workflows. Key features include DAG-based workflows, scheduling, monitoring, extensive operators. Common use cases are ETL pipelines, data engineering, ML pipeline orchestration. Pricing model: open-source.",
+    "logo_url": "https://cdn.simpleicons.org/apacheairflow"
+  },
+  {
+    "tool_name": "Temporal",
+    "category": "Automation / Workflow",
+    "description": "Durable workflow execution platform for building reliable distributed applications.",
+    "features": [
+      "durable execution",
+      "workflow versioning",
+      "multi-language",
+      "fault tolerance"
+    ],
+    "tags": [
+      "workflow",
+      "distributed-systems",
+      "reliability"
+    ],
+    "pricing": "open-source",
+    "website": "https://temporal.io",
+    "github": "https://github.com/temporalio/temporal",
+    "use_cases": [
+      "long-running processes",
+      "microservices orchestration",
+      "reliable AI agents"
+    ],
+    "content": "Temporal provides durable workflow execution that survives infrastructure failures, making it ideal for long-running agent and business processes.",
+    "embed_text": "Temporal is an AI tool. Category: Automation / Workflow. Durable workflow execution platform for building reliable distributed applications. Key features include durable execution, workflow versioning, multi-language, fault tolerance. Common use cases are long-running processes, microservices orchestration, reliable AI agents. Pricing model: open-source.",
+    "logo_url": "https://cdn.simpleicons.org/temporal"
+  },
+  {
+    "tool_name": "Prefect",
+    "category": "Automation / Workflow",
+    "description": "Modern Python workflow orchestration platform for data and ML pipelines.",
+    "features": [
+      "Python-native",
+      "observability",
+      "scheduling",
+      "cloud UI"
+    ],
+    "tags": [
+      "workflow",
+      "data-pipeline",
+      "python"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.prefect.io",
+    "github": "https://github.com/PrefectHQ/prefect",
+    "use_cases": [
+      "data pipelines",
+      "ML workflows",
+      "batch processing"
+    ],
+    "content": "Prefect is a modern Python orchestration platform for building, scheduling, and observing data and ML workflows with minimal overhead.",
+    "embed_text": "Prefect is an AI tool. Category: Automation / Workflow. Modern Python workflow orchestration platform for data and ML pipelines. Key features include Python-native, observability, scheduling, cloud UI. Common use cases are data pipelines, ML workflows, batch processing. Pricing model: open-source.",
+    "logo_url": "https://cdn.simpleicons.org/prefect"
+  },
+  {
+    "tool_name": "Dagster",
+    "category": "Automation / Workflow",
+    "description": "Data orchestration platform with asset-centric approach to pipeline management.",
+    "features": [
+      "asset graph",
+      "data lineage",
+      "testing",
+      "observability"
+    ],
+    "tags": [
+      "data-pipeline",
+      "orchestration",
+      "asset-centric"
+    ],
+    "pricing": "open-source",
+    "website": "https://dagster.io",
+    "github": "https://github.com/dagster-io/dagster",
+    "use_cases": [
+      "data engineering",
+      "ML pipelines",
+      "data asset management"
+    ],
+    "content": "Dagster is an asset-centric data orchestration platform with first-class support for data lineage, testing, and observability.",
+    "embed_text": "Dagster is an AI tool. Category: Automation / Workflow. Data orchestration platform with asset-centric approach to pipeline management. Key features include asset graph, data lineage, testing, observability. Common use cases are data engineering, ML pipelines, data asset management. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/dagster-io?s=128"
+  },
+  {
+    "tool_name": "Kestra",
+    "category": "Automation / Workflow",
+    "description": "Open-source YAML-based workflow orchestration and scheduling platform.",
+    "features": [
+      "YAML workflows",
+      "400+ plugins",
+      "event-driven",
+      "UI"
+    ],
+    "tags": [
+      "workflow",
+      "orchestration",
+      "yaml"
+    ],
+    "pricing": "open-source",
+    "website": "https://kestra.io",
+    "github": "https://github.com/kestra-io/kestra",
+    "use_cases": [
+      "workflow automation",
+      "data pipelines",
+      "scheduled tasks"
+    ],
+    "content": "Kestra is a YAML-based workflow orchestration platform with 400+ plugins for event-driven automation and data pipeline management.",
+    "embed_text": "Kestra is an AI tool. Category: Automation / Workflow. Open-source YAML-based workflow orchestration and scheduling platform. Key features include YAML workflows, 400+ plugins, event-driven, UI. Common use cases are workflow automation, data pipelines, scheduled tasks. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/kestra-io?s=128"
+  },
+  {
+    "tool_name": "Windmill",
+    "category": "Automation / Workflow",
+    "description": "Open-source developer platform for building internal tools and workflows.",
+    "features": [
+      "scripts",
+      "flows",
+      "apps",
+      "multi-language"
+    ],
+    "tags": [
+      "workflow",
+      "internal-tools",
+      "automation"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.windmill.dev",
+    "github": "https://github.com/windmill-labs/windmill",
+    "use_cases": [
+      "internal tool building",
+      "script automation",
+      "workflow orchestration"
+    ],
+    "content": "Windmill is an open-source developer platform for building internal apps, workflows, and scripts with a fast UI builder.",
+    "embed_text": "Windmill is an AI tool. Category: Automation / Workflow. Open-source developer platform for building internal tools and workflows. Key features include scripts, flows, apps, multi-language. Common use cases are internal tool building, script automation, workflow orchestration. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/windmill-labs?s=128"
+  },
+  {
+    "tool_name": "Activepieces",
+    "category": "Automation / Workflow",
+    "description": "Open-source no-code automation platform as a Zapier alternative.",
+    "features": [
+      "visual builder",
+      "100+ integrations",
+      "self-hosted",
+      "AI steps"
+    ],
+    "tags": [
+      "automation",
+      "no-code",
+      "integration"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.activepieces.com",
+    "github": "https://github.com/activepieces/activepieces",
+    "use_cases": [
+      "business automation",
+      "workflow integration",
+      "no-code AI automation"
+    ],
+    "content": "Activepieces is an open-source no-code automation platform with 100+ integrations that serves as a self-hosted Zapier alternative.",
+    "embed_text": "Activepieces is an AI tool. Category: Automation / Workflow. Open-source no-code automation platform as a Zapier alternative. Key features include visual builder, 100+ integrations, self-hosted, AI steps. Common use cases are business automation, workflow integration, no-code AI automation. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/activepieces?s=128"
+  },
+  {
+    "tool_name": "ToolJet",
+    "category": "Automation / Workflow",
+    "description": "Open-source low-code platform for building internal business applications.",
+    "features": [
+      "drag-and-drop UI",
+      "database connections",
+      "REST API",
+      "self-hosted"
+    ],
+    "tags": [
+      "low-code",
+      "internal-tools",
+      "app-builder"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.tooljet.com",
+    "github": "https://github.com/ToolJet/ToolJet",
+    "use_cases": [
+      "internal apps",
+      "dashboards",
+      "CRUD applications"
+    ],
+    "content": "ToolJet is an open-source low-code platform for building internal tools and dashboards with a drag-and-drop builder and database integrations.",
+    "embed_text": "ToolJet is an AI tool. Category: Automation / Workflow. Open-source low-code platform for building internal business applications. Key features include drag-and-drop UI, database connections, REST API, self-hosted. Common use cases are internal apps, dashboards, CRUD applications. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/ToolJet?s=128"
+  },
+  {
+    "tool_name": "Appsmith",
+    "category": "Automation / Workflow",
+    "description": "Open-source platform for building internal tools with drag-and-drop UI.",
+    "features": [
+      "visual builder",
+      "database integrations",
+      "API connections",
+      "JavaScript support"
+    ],
+    "tags": [
+      "low-code",
+      "internal-tools",
+      "app-builder"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.appsmith.com",
+    "github": "https://github.com/appsmithorg/appsmith",
+    "use_cases": [
+      "internal dashboards",
+      "admin panels",
+      "data apps"
+    ],
+    "content": "Appsmith is an open-source internal tool builder with a drag-and-drop UI, 45+ database integrations, and JavaScript customization.",
+    "embed_text": "Appsmith is an AI tool. Category: Automation / Workflow. Open-source platform for building internal tools with drag-and-drop UI. Key features include visual builder, database integrations, API connections, JavaScript support. Common use cases are internal dashboards, admin panels, data apps. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/appsmithorg?s=128"
+  },
+  {
+    "tool_name": "Perplexica",
+    "category": "AI Search / Research",
+    "description": "Open-source AI search engine with web retrieval and source citation.",
+    "features": [
+      "web search",
+      "source citations",
+      "local LLM support",
+      "multiple search modes"
+    ],
+    "tags": [
+      "ai-search",
+      "open-source",
+      "perplexity-alternative"
+    ],
+    "pricing": "open-source",
+    "website": "",
+    "github": "https://github.com/ItzCrazyKns/Perplexica",
+    "use_cases": [
+      "web research",
+      "AI-powered search",
+      "cited answers"
+    ],
+    "content": "Perplexica is an open-source alternative to Perplexity AI that searches the web and provides cited answers using local or cloud LLMs.",
+    "embed_text": "Perplexica is an AI tool. Category: AI Search / Research. Open-source AI search engine with web retrieval and source citation. Key features include web search, source citations, local LLM support, multiple search modes. Common use cases are web research, AI-powered search, cited answers. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/ItzCrazyKns?s=128"
+  },
+  {
+    "tool_name": "Khoj",
+    "category": "AI Search / Research",
+    "description": "Open-source AI personal assistant for searching and chatting with your own data.",
+    "features": [
+      "personal search",
+      "document indexing",
+      "web search",
+      "calendar integration"
+    ],
+    "tags": [
+      "personal-ai",
+      "search",
+      "self-hosted"
+    ],
+    "pricing": "open-source",
+    "website": "https://khoj.dev",
+    "github": "https://github.com/khoj-ai/khoj",
+    "use_cases": [
+      "personal knowledge search",
+      "document chat",
+      "research assistant"
+    ],
+    "content": "Khoj is an open-source AI assistant that indexes your notes, documents, and web data for intelligent personal search and Q&A.",
+    "embed_text": "Khoj is an AI tool. Category: AI Search / Research. Open-source AI personal assistant for searching and chatting with your own data. Key features include personal search, document indexing, web search, calendar integration. Common use cases are personal knowledge search, document chat, research assistant. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/khoj-ai?s=128"
+  },
+  {
+    "tool_name": "Jina AI",
+    "category": "AI Search / Research",
+    "description": "Neural search framework and cloud services for building multimodal AI search.",
+    "features": [
+      "neural search",
+      "multimodal embeddings",
+      "reader API",
+      "reranking"
+    ],
+    "tags": [
+      "search",
+      "embeddings",
+      "neural-search"
+    ],
+    "pricing": "open-source",
+    "website": "https://jina.ai",
+    "github": "https://github.com/jina-ai/jina",
+    "use_cases": [
+      "multimodal search",
+      "document retrieval",
+      "AI-powered search"
+    ],
+    "content": "Jina AI provides a neural search framework and embedding APIs for building scalable multimodal search applications.",
+    "embed_text": "Jina AI is an AI tool. Category: AI Search / Research. Neural search framework and cloud services for building multimodal AI search. Key features include neural search, multimodal embeddings, reader API, reranking. Common use cases are multimodal search, document retrieval, AI-powered search. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/jina-ai?s=128"
+  },
+  {
+    "tool_name": "You.com",
+    "category": "AI Search / Research",
+    "description": "AI-powered search engine with customizable search modes and cited answers.",
+    "features": [
+      "AI search",
+      "cited answers",
+      "code mode",
+      "app integrations"
+    ],
+    "tags": [
+      "ai-search",
+      "search-engine",
+      "commercial"
+    ],
+    "pricing": "freemium",
+    "website": "https://you.com",
+    "github": "",
+    "use_cases": [
+      "web research",
+      "code search",
+      "AI-augmented search"
+    ],
+    "content": "You.com is an AI-native search engine that provides cited, summarized answers with specialized modes for code, writing, and research.",
+    "embed_text": "You.com is an AI tool. Category: AI Search / Research. AI-powered search engine with customizable search modes and cited answers. Key features include AI search, cited answers, code mode, app integrations. Common use cases are web research, code search, AI-augmented search. Pricing model: freemium.",
+    "logo_url": "https://www.google.com/s2/favicons?domain=you.com&sz=128"
+  },
+  {
+    "tool_name": "Phind",
+    "category": "AI Search / Research",
+    "description": "AI search engine optimized for developers and technical queries.",
+    "features": [
+      "code-focused search",
+      "VS Code extension",
+      "cited answers",
+      "pair programming"
+    ],
+    "tags": [
+      "ai-search",
+      "developer-tools",
+      "coding"
+    ],
+    "pricing": "freemium",
+    "website": "https://www.phind.com",
+    "github": "",
+    "use_cases": [
+      "developer search",
+      "code research",
+      "technical Q&A"
+    ],
+    "content": "Phind is an AI search engine designed for developers, providing detailed technical answers with code examples and source citations.",
+    "embed_text": "Phind is an AI tool. Category: AI Search / Research. AI search engine optimized for developers and technical queries. Key features include code-focused search, VS Code extension, cited answers, pair programming. Common use cases are developer search, code research, technical Q&A. Pricing model: freemium.",
+    "logo_url": "-"
+  },
+  {
+    "tool_name": "Glean",
+    "category": "AI Search / Research",
+    "description": "Enterprise AI search platform connecting all company data sources.",
+    "features": [
+      "enterprise search",
+      "100+ integrations",
+      "knowledge graph",
+      "AI assistant"
+    ],
+    "tags": [
+      "enterprise-search",
+      "knowledge-management",
+      "commercial"
+    ],
+    "pricing": "paid",
+    "website": "https://www.glean.com",
+    "github": "",
+    "use_cases": [
+      "enterprise knowledge search",
+      "company data retrieval",
+      "employee productivity"
+    ],
+    "content": "Glean is an enterprise AI search platform that connects to 100+ apps and data sources to provide unified intelligent search.",
+    "embed_text": "Glean is an AI tool. Category: AI Search / Research. Enterprise AI search platform connecting all company data sources. Key features include enterprise search, 100+ integrations, knowledge graph, AI assistant. Common use cases are enterprise knowledge search, company data retrieval, employee productivity. Pricing model: paid.",
+    "logo_url": "https://www.google.com/s2/favicons?domain=glean.com&sz=128"
+  },
+  {
+    "tool_name": "Kagi",
+    "category": "AI Search / Research",
+    "description": "Premium ad-free search engine with AI summarization features.",
+    "features": [
+      "ad-free",
+      "AI summaries",
+      "customization",
+      "quick answers"
+    ],
+    "tags": [
+      "search-engine",
+      "premium",
+      "privacy"
+    ],
+    "pricing": "paid",
+    "website": "https://kagi.com",
+    "github": "",
+    "use_cases": [
+      "premium web search",
+      "privacy-focused search",
+      "AI-enhanced browsing"
+    ],
+    "content": "Kagi is a premium ad-free search engine with AI-powered summaries, user customization, and a focus on search quality and privacy.",
+    "embed_text": "Kagi is an AI tool. Category: AI Search / Research. Premium ad-free search engine with AI summarization features. Key features include ad-free, AI summaries, customization, quick answers. Common use cases are premium web search, privacy-focused search, AI-enhanced browsing. Pricing model: paid.",
+    "logo_url": "https://www.google.com/s2/favicons?domain=kagi.com&sz=128"
+  },
+  {
+    "tool_name": "Exa",
+    "category": "AI Search / Research",
+    "description": "Neural search API for finding semantically similar content on the web.",
+    "features": [
+      "semantic search",
+      "content retrieval",
+      "similarity search",
+      "API"
+    ],
+    "tags": [
+      "search-api",
+      "semantic-search",
+      "developer-tools"
+    ],
+    "pricing": "freemium",
+    "website": "https://exa.ai",
+    "github": "",
+    "use_cases": [
+      "web content retrieval",
+      "semantic search",
+      "AI agent research"
+    ],
+    "content": "Exa is a semantic web search API that retrieves the most relevant content using neural embeddings rather than keyword matching.",
+    "embed_text": "Exa is an AI tool. Category: AI Search / Research. Neural search API for finding semantically similar content on the web. Key features include semantic search, content retrieval, similarity search, API. Common use cases are web content retrieval, semantic search, AI agent research. Pricing model: freemium.",
+    "logo_url": "https://www.google.com/s2/favicons?domain=exa.ai&sz=128"
+  },
+  {
+    "tool_name": "Tavily",
+    "category": "AI Search / Research",
+    "description": "AI-optimized search API designed for use by LLM agents and RAG pipelines.",
+    "features": [
+      "agent-optimized",
+      "real-time search",
+      "content extraction",
+      "API"
+    ],
+    "tags": [
+      "search-api",
+      "ai-agents",
+      "rag"
+    ],
+    "pricing": "freemium",
+    "website": "https://tavily.com",
+    "github": "",
+    "use_cases": [
+      "agent web search",
+      "RAG data retrieval",
+      "AI research"
+    ],
+    "content": "Tavily is a search API purpose-built for AI agents and RAG applications, providing clean, structured web search results for LLMs.",
+    "embed_text": "Tavily is an AI tool. Category: AI Search / Research. AI-optimized search API designed for use by LLM agents and RAG pipelines. Key features include agent-optimized, real-time search, content extraction, API. Common use cases are agent web search, RAG data retrieval, AI research. Pricing model: freemium.",
+    "logo_url": "https://www.google.com/s2/favicons?domain=tavily.com&sz=128"
+  },
+  {
+    "tool_name": "Metaphor",
+    "category": "AI Search / Research",
+    "description": "Neural search engine API for finding high-quality content by meaning.",
+    "features": [
+      "neural search",
+      "link similarity",
+      "date filtering",
+      "content retrieval"
+    ],
+    "tags": [
+      "search-api",
+      "neural-search",
+      "content-discovery"
+    ],
+    "pricing": "freemium",
+    "website": "https://metaphor.systems",
+    "github": "",
+    "use_cases": [
+      "content discovery",
+      "semantic search",
+      "research automation"
+    ],
+    "content": "Metaphor is a neural search engine API that finds content based on meaning and semantic similarity rather than keyword matching.",
+    "embed_text": "Metaphor is an AI tool. Category: AI Search / Research. Neural search engine API for finding high-quality content by meaning. Key features include neural search, link similarity, date filtering, content retrieval. Common use cases are content discovery, semantic search, research automation. Pricing model: freemium.",
+    "logo_url": "https://www.google.com/s2/favicons?domain=metaphor.systems&sz=128"
+  },
+  {
+    "tool_name": "Botpress",
+    "category": "Specialized AI Platform",
+    "description": "Open-source conversational AI platform for building and deploying chatbots.",
+    "features": [
+      "visual flow builder",
+      "NLU",
+      "channel integrations",
+      "analytics"
+    ],
+    "tags": [
+      "chatbot",
+      "conversational-ai",
+      "platform"
+    ],
+    "pricing": "open-source",
+    "website": "https://botpress.com",
+    "github": "https://github.com/botpress/botpress",
+    "use_cases": [
+      "customer service bots",
+      "virtual assistants",
+      "lead generation"
+    ],
+    "content": "Botpress is a developer-first conversational AI platform for building, deploying, and managing intelligent chatbots at scale.",
+    "embed_text": "Botpress is an AI tool. Category: Specialized AI Platform. Open-source conversational AI platform for building and deploying chatbots. Key features include visual flow builder, NLU, channel integrations, analytics. Common use cases are customer service bots, virtual assistants, lead generation. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/botpress?s=128"
+  },
+  {
+    "tool_name": "Typebot",
+    "category": "Specialized AI Platform",
+    "description": "Open-source conversational app builder with a visual flow interface.",
+    "features": [
+      "visual builder",
+      "embed anywhere",
+      "analytics",
+      "AI integration"
+    ],
+    "tags": [
+      "chatbot",
+      "no-code",
+      "conversational-forms"
+    ],
+    "pricing": "open-source",
+    "website": "https://typebot.io",
+    "github": "https://github.com/baptisteArno/typebot.io",
+    "use_cases": [
+      "lead capture",
+      "surveys",
+      "conversational forms"
+    ],
+    "content": "Typebot is an open-source visual builder for conversational apps and chatbots that can be embedded anywhere with AI integration.",
+    "embed_text": "Typebot is an AI tool. Category: Specialized AI Platform. Open-source conversational app builder with a visual flow interface. Key features include visual builder, embed anywhere, analytics, AI integration. Common use cases are lead capture, surveys, conversational forms. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/baptisteArno?s=128"
+  },
+  {
+    "tool_name": "Paperless-ngx",
+    "category": "Specialized AI Platform",
+    "description": "Open-source document management system with OCR and AI-powered tagging.",
+    "features": [
+      "OCR",
+      "document indexing",
+      "tagging",
+      "full-text search"
+    ],
+    "tags": [
+      "document-management",
+      "ocr",
+      "self-hosted"
+    ],
+    "pricing": "open-source",
+    "website": "https://docs.paperless-ngx.com",
+    "github": "https://github.com/paperless-ngx/paperless-ngx",
+    "use_cases": [
+      "document archiving",
+      "paperless office",
+      "document search"
+    ],
+    "content": "Paperless-ngx is a self-hosted document management system that uses OCR and AI tagging to index and search physical documents digitally.",
+    "embed_text": "Paperless-ngx is an AI tool. Category: Specialized AI Platform. Open-source document management system with OCR and AI-powered tagging. Key features include OCR, document indexing, tagging, full-text search. Common use cases are document archiving, paperless office, document search. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/paperless-ngx?s=128"
+  },
+  {
+    "tool_name": "Chat2DB",
+    "category": "Specialized AI Platform",
+    "description": "AI-powered database management tool with natural language to SQL capabilities.",
+    "features": [
+      "text-to-SQL",
+      "multi-database",
+      "AI assistant",
+      "query optimization"
+    ],
+    "tags": [
+      "database",
+      "text-to-sql",
+      "developer-tools"
+    ],
+    "pricing": "open-source",
+    "website": "https://chat2db.ai",
+    "github": "https://github.com/chat2db/Chat2DB",
+    "use_cases": [
+      "database querying",
+      "SQL generation",
+      "data exploration"
+    ],
+    "content": "Chat2DB is an AI-powered database tool that allows users to interact with databases using natural language queries and SQL generation.",
+    "embed_text": "Chat2DB is an AI tool. Category: Specialized AI Platform. AI-powered database management tool with natural language to SQL capabilities. Key features include text-to-SQL, multi-database, AI assistant, query optimization. Common use cases are database querying, SQL generation, data exploration. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/chat2db?s=128"
+  },
+  {
+    "tool_name": "Qlib",
+    "category": "Specialized AI Platform",
+    "description": "Microsoft's AI-oriented quantitative investment research platform.",
+    "features": [
+      "quant research",
+      "ML models",
+      "backtesting",
+      "factor analysis"
+    ],
+    "tags": [
+      "quantitative-finance",
+      "ml-research",
+      "trading"
+    ],
+    "pricing": "open-source",
+    "website": "https://qlib.readthedocs.io",
+    "github": "https://github.com/microsoft/qlib",
+    "use_cases": [
+      "quantitative trading",
+      "stock prediction",
+      "financial AI research"
+    ],
+    "content": "Qlib is Microsoft's open-source AI quantitative investment platform for building, testing, and deploying ML-driven trading strategies.",
+    "embed_text": "Qlib is an AI tool. Category: Specialized AI Platform. Microsoft's AI-oriented quantitative investment research platform. Key features include quant research, ML models, backtesting, factor analysis. Common use cases are quantitative trading, stock prediction, financial AI research. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/microsoft?s=128"
+  },
+  {
+    "tool_name": "MNN",
+    "category": "Specialized AI Platform",
+    "description": "Alibaba's lightweight deep learning inference engine for mobile and edge devices.",
+    "features": [
+      "mobile inference",
+      "multi-backend",
+      "LLM support",
+      "cross-platform"
+    ],
+    "tags": [
+      "inference",
+      "mobile",
+      "edge",
+      "alibaba"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.mnn.zone",
+    "github": "https://github.com/alibaba/MNN",
+    "use_cases": [
+      "mobile AI",
+      "edge inference",
+      "on-device LLMs"
+    ],
+    "content": "MNN is Alibaba's high-performance deep learning inference engine optimized for mobile and edge devices with LLM support.",
+    "embed_text": "MNN is an AI tool. Category: Specialized AI Platform. Alibaba's lightweight deep learning inference engine for mobile and edge devices. Key features include mobile inference, multi-backend, LLM support, cross-platform. Common use cases are mobile AI, edge inference, on-device LLMs. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/alibaba?s=128"
+  },
+  {
+    "tool_name": "DeepPavlov",
+    "category": "Specialized AI Platform",
+    "description": "Open-source conversational AI and NLP library for dialogue systems.",
+    "features": [
+      "NLP pipelines",
+      "dialogue management",
+      "entity extraction",
+      "question answering"
+    ],
+    "tags": [
+      "nlp",
+      "conversational-ai",
+      "dialogue"
+    ],
+    "pricing": "open-source",
+    "website": "https://deeppavlov.ai",
+    "github": "https://github.com/deeppavlov/DeepPavlov",
+    "use_cases": [
+      "chatbots",
+      "NLP research",
+      "conversational AI"
+    ],
+    "content": "DeepPavlov is an open-source NLP framework for building production-ready conversational AI systems and dialogue models.",
+    "embed_text": "DeepPavlov is an AI tool. Category: Specialized AI Platform. Open-source conversational AI and NLP library for dialogue systems. Key features include NLP pipelines, dialogue management, entity extraction, question answering. Common use cases are chatbots, NLP research, conversational AI. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/deeppavlov?s=128"
+  },
+  {
+    "tool_name": "WeChaty",
+    "category": "Specialized AI Platform",
+    "description": "Conversational RPA SDK for WeChat and other messaging platforms.",
+    "features": [
+      "WeChat integration",
+      "multi-platform",
+      "bot SDK",
+      "message automation"
+    ],
+    "tags": [
+      "chatbot",
+      "wechat",
+      "messaging",
+      "rpa"
+    ],
+    "pricing": "open-source",
+    "website": "https://wechaty.js.org",
+    "github": "https://github.com/wechaty/wechaty",
+    "use_cases": [
+      "WeChat bots",
+      "messaging automation",
+      "customer service"
+    ],
+    "content": "Wechaty is an open-source SDK for building bots and automations on WeChat and other messaging platforms using JavaScript/Python.",
+    "embed_text": "WeChaty is an AI tool. Category: Specialized AI Platform. Conversational RPA SDK for WeChat and other messaging platforms. Key features include WeChat integration, multi-platform, bot SDK, message automation. Common use cases are WeChat bots, messaging automation, customer service. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/wechaty?s=128"
+  },
+  {
+    "tool_name": "NoneBot2",
+    "category": "Specialized AI Platform",
+    "description": "Asynchronous Python chatbot framework for building multi-platform bots.",
+    "features": [
+      "multi-platform",
+      "plugin system",
+      "async Python",
+      "Discord/Telegram support"
+    ],
+    "tags": [
+      "chatbot",
+      "python",
+      "framework",
+      "messaging"
+    ],
+    "pricing": "open-source",
+    "website": "https://nonebot.dev",
+    "github": "https://github.com/nonebot/nonebot2",
+    "use_cases": [
+      "QQ bots",
+      "Discord bots",
+      "multi-platform chatbots"
+    ],
+    "content": "NoneBot2 is an asynchronous Python bot framework supporting multiple messaging platforms with a powerful plugin system.",
+    "embed_text": "NoneBot2 is an AI tool. Category: Specialized AI Platform. Asynchronous Python chatbot framework for building multi-platform bots. Key features include multi-platform, plugin system, async Python, Discord/Telegram support. Common use cases are QQ bots, Discord bots, multi-platform chatbots. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/nonebot?s=128"
+  },
+  {
+    "tool_name": "NLP.js",
+    "category": "Specialized AI Platform",
+    "description": "JavaScript NLP library for training and using natural language processing models.",
+    "features": [
+      "NLU",
+      "entity extraction",
+      "sentiment analysis",
+      "40+ languages"
+    ],
+    "tags": [
+      "nlp",
+      "javascript",
+      "chatbot",
+      "nlu"
+    ],
+    "pricing": "open-source",
+    "website": "",
+    "github": "https://github.com/axa-group/nlp.js",
+    "use_cases": [
+      "chatbot NLU",
+      "text classification",
+      "entity recognition"
+    ],
+    "content": "NLP.js is a JavaScript natural language processing library for building chatbot intent classification and entity extraction in Node.js.",
+    "embed_text": "NLP.js is an AI tool. Category: Specialized AI Platform. JavaScript NLP library for training and using natural language processing models. Key features include NLU, entity extraction, sentiment analysis, 40+ languages. Common use cases are chatbot NLU, text classification, entity recognition. Pricing model: open-source.",
+    "logo_url": "https://www.google.com/s2/favicons?domain=github.com&sz=128"
+  },
+  {
+    "tool_name": "LLMs-from-scratch",
+    "category": "Educational / Research",
+    "description": "Book companion code for building large language models from scratch in Python.",
+    "features": [
+      "educational",
+      "step-by-step",
+      "PyTorch",
+      "transformer implementation"
+    ],
+    "tags": [
+      "education",
+      "llm",
+      "book",
+      "research"
+    ],
+    "pricing": "open-source",
+    "website": "https://www.manning.com/books/build-a-large-language-model-from-scratch",
+    "github": "https://github.com/rasbt/LLMs-from-scratch",
+    "use_cases": [
+      "LLM education",
+      "deep learning learning",
+      "AI research"
+    ],
+    "content": "LLMs from Scratch is the companion repository for Sebastian Raschka's book on implementing LLMs step by step using PyTorch.",
+    "embed_text": "LLMs-from-scratch is an AI tool. Category: Educational / Research. Book companion code for building large language models from scratch in Python. Key features include educational, step-by-step, PyTorch, transformer implementation. Common use cases are LLM education, deep learning learning, AI research. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/rasbt?s=128"
+  },
+  {
+    "tool_name": "RAG_Techniques",
+    "category": "Educational / Research",
+    "description": "Collection of advanced RAG techniques and implementations for learning and reference.",
+    "features": [
+      "multiple RAG methods",
+      "code examples",
+      "tutorials",
+      "benchmarks"
+    ],
+    "tags": [
+      "education",
+      "rag",
+      "techniques",
+      "reference"
+    ],
+    "pricing": "open-source",
+    "website": "",
+    "github": "https://github.com/NirDiamant/RAG_Techniques",
+    "use_cases": [
+      "RAG learning",
+      "implementation reference",
+      "advanced retrieval"
+    ],
+    "content": "RAG Techniques is a curated collection of advanced retrieval-augmented generation patterns with Python implementations and explanations.",
+    "embed_text": "RAG_Techniques is an AI tool. Category: Educational / Research. Collection of advanced RAG techniques and implementations for learning and reference. Key features include multiple RAG methods, code examples, tutorials, benchmarks. Common use cases are RAG learning, implementation reference, advanced retrieval. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/NirDiamant?s=128"
+  },
+  {
+    "tool_name": "AI Engineering Hub",
+    "category": "Educational / Research",
+    "description": "Repository of practical AI engineering tutorials, notebooks, and reference implementations.",
+    "features": [
+      "tutorials",
+      "notebooks",
+      "agent examples",
+      "RAG examples"
+    ],
+    "tags": [
+      "education",
+      "ai-engineering",
+      "tutorials"
+    ],
+    "pricing": "open-source",
+    "website": "",
+    "github": "https://github.com/patchy631/ai-engineering-hub",
+    "use_cases": [
+      "AI engineering learning",
+      "implementation reference",
+      "practical AI"
+    ],
+    "content": "AI Engineering Hub is a collection of practical tutorials and notebooks covering LLMs, RAG, agents, and AI engineering best practices.",
+    "embed_text": "AI Engineering Hub is an AI tool. Category: Educational / Research. Repository of practical AI engineering tutorials, notebooks, and reference implementations. Key features include tutorials, notebooks, agent examples, RAG examples. Common use cases are AI engineering learning, implementation reference, practical AI. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/patchy631?s=128"
+  },
+  {
+    "tool_name": "Agents Towards Production",
+    "category": "Educational / Research",
+    "description": "Guide and codebase for taking AI agents from prototype to production.",
+    "features": [
+      "production patterns",
+      "agent deployment",
+      "best practices",
+      "examples"
+    ],
+    "tags": [
+      "education",
+      "agents",
+      "production",
+      "engineering"
+    ],
+    "pricing": "open-source",
+    "website": "",
+    "github": "https://github.com/NirDiamant/agents-towards-production",
+    "use_cases": [
+      "agent production deployment",
+      "AI engineering",
+      "best practices"
+    ],
+    "content": "Agents Towards Production is a practical guide covering patterns and implementations for deploying AI agents in production environments.",
+    "embed_text": "Agents Towards Production is an AI tool. Category: Educational / Research. Guide and codebase for taking AI agents from prototype to production. Key features include production patterns, agent deployment, best practices, examples. Common use cases are agent production deployment, AI engineering, best practices. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/NirDiamant?s=128"
+  },
+  {
+    "tool_name": "Hugging Face Agents Course",
+    "category": "Educational / Research",
+    "description": "Official Hugging Face course on building AI agents using the transformers ecosystem.",
+    "features": [
+      "structured curriculum",
+      "notebooks",
+      "agent frameworks",
+      "hands-on"
+    ],
+    "tags": [
+      "education",
+      "agents",
+      "huggingface",
+      "course"
+    ],
+    "pricing": "free",
+    "website": "https://huggingface.co/learn/agents-course",
+    "github": "https://github.com/huggingface/agents-course",
+    "use_cases": [
+      "AI agent learning",
+      "Hugging Face ecosystem",
+      "agent development"
+    ],
+    "content": "Hugging Face's Agents Course provides a structured curriculum for learning to build AI agents using the Hugging Face ecosystem and tools.",
+    "embed_text": "Hugging Face Agents Course is an AI tool. Category: Educational / Research. Official Hugging Face course on building AI agents using the transformers ecosystem. Key features include structured curriculum, notebooks, agent frameworks, hands-on. Common use cases are AI agent learning, Hugging Face ecosystem, agent development. Pricing model: free.",
+    "logo_url": "https://cdn.simpleicons.org/huggingface"
+  },
+  {
+    "tool_name": "Awesome LangChain",
+    "category": "Educational / Research",
+    "description": "Curated list of tools, tutorials, and resources for the LangChain ecosystem.",
+    "features": [
+      "curated resources",
+      "tool directory",
+      "tutorials",
+      "community maintained"
+    ],
+    "tags": [
+      "education",
+      "langchain",
+      "resource-list"
+    ],
+    "pricing": "open-source",
+    "website": "",
+    "github": "https://github.com/kyrolabs/awesome-langchain",
+    "use_cases": [
+      "LangChain ecosystem discovery",
+      "tool research",
+      "learning resources"
+    ],
+    "content": "Awesome LangChain is a community-curated list of tools, use cases, tutorials, and resources built around the LangChain framework.",
+    "embed_text": "Awesome LangChain is an AI tool. Category: Educational / Research. Curated list of tools, tutorials, and resources for the LangChain ecosystem. Key features include curated resources, tool directory, tutorials, community maintained. Common use cases are LangChain ecosystem discovery, tool research, learning resources. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/kyrolabs?s=128"
+  },
+  {
+    "tool_name": "Awesome AI Agents",
+    "category": "Educational / Research",
+    "description": "Curated list of autonomous AI agent frameworks, tools, and resources.",
+    "features": [
+      "curated list",
+      "agent frameworks",
+      "benchmarks",
+      "papers"
+    ],
+    "tags": [
+      "education",
+      "agents",
+      "resource-list"
+    ],
+    "pricing": "open-source",
+    "website": "",
+    "github": "https://github.com/e2b-dev/awesome-ai-agents",
+    "use_cases": [
+      "agent discovery",
+      "framework comparison",
+      "research"
+    ],
+    "content": "Awesome AI Agents is a comprehensive curated directory of autonomous AI agent frameworks, platforms, and related research papers.",
+    "embed_text": "Awesome AI Agents is an AI tool. Category: Educational / Research. Curated list of autonomous AI agent frameworks, tools, and resources. Key features include curated list, agent frameworks, benchmarks, papers. Common use cases are agent discovery, framework comparison, research. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/e2b-dev?s=128"
+  },
+  {
+    "tool_name": "MML Book",
+    "category": "Educational / Research",
+    "description": "Mathematics for Machine Learning open textbook covering linear algebra, calculus, and probability.",
+    "features": [
+      "free PDF",
+      "exercises",
+      "Python notebooks",
+      "comprehensive coverage"
+    ],
+    "tags": [
+      "education",
+      "mathematics",
+      "ml-fundamentals",
+      "textbook"
+    ],
+    "pricing": "free",
+    "website": "https://mml-book.github.io",
+    "github": "https://github.com/mml-book/mml-book.github.io",
+    "use_cases": [
+      "ML math foundations",
+      "self-study",
+      "academic reference"
+    ],
+    "content": "Mathematics for Machine Learning is a free open textbook covering the mathematical prerequisites for understanding modern ML algorithms.",
+    "embed_text": "MML Book is an AI tool. Category: Educational / Research. Mathematics for Machine Learning open textbook covering linear algebra, calculus, and probability. Key features include free PDF, exercises, Python notebooks, comprehensive coverage. Common use cases are ML math foundations, self-study, academic reference. Pricing model: free.",
+    "logo_url": "https://avatars.githubusercontent.com/mml-book?s=128"
+  },
+  {
+    "tool_name": "Machine Learning Interview",
+    "category": "Educational / Research",
+    "description": "Comprehensive guide and question bank for machine learning job interviews.",
+    "features": [
+      "interview questions",
+      "ML concepts",
+      "coding problems",
+      "system design"
+    ],
+    "tags": [
+      "education",
+      "interview-prep",
+      "career"
+    ],
+    "pricing": "open-source",
+    "website": "",
+    "github": "https://github.com/khangich/machine-learning-interview",
+    "use_cases": [
+      "ML interview preparation",
+      "career development",
+      "knowledge review"
+    ],
+    "content": "Machine Learning Interview is a curated repository of ML interview questions, study materials, and system design examples for job seekers.",
+    "embed_text": "Machine Learning Interview is an AI tool. Category: Educational / Research. Comprehensive guide and question bank for machine learning job interviews. Key features include interview questions, ML concepts, coding problems, system design. Common use cases are ML interview preparation, career development, knowledge review. Pricing model: open-source.",
+    "logo_url": "https://avatars.githubusercontent.com/khangich?s=128"
+  },
+  {
+    "tool_name": "Papers with Code",
+    "category": "Educational / Research",
+    "description": "Platform linking machine learning research papers with their open-source implementations.",
+    "features": [
+      "paper tracking",
+      "code links",
+      "benchmarks",
+      "state-of-the-art tracking"
+    ],
+    "tags": [
+      "research",
+      "papers",
+      "benchmarks",
+      "sota"
+    ],
+    "pricing": "free",
+    "website": "https://paperswithcode.com",
+    "github": "",
+    "use_cases": [
+      "ML research discovery",
+      "benchmark comparison",
+      "implementation finding"
+    ],
+    "content": "Papers with Code is a platform that connects ML research papers with open-source code implementations and tracks state-of-the-art benchmarks.",
+    "embed_text": "Papers with Code is an AI tool. Category: Educational / Research. Platform linking machine learning research papers with their open-source implementations. Key features include paper tracking, code links, benchmarks, state-of-the-art tracking. Common use cases are ML research discovery, benchmark comparison, implementation finding. Pricing model: free.",
+    "logo_url": "https://www.google.com/s2/favicons?domain=paperswithcode.com&sz=128"
+  }
+]
