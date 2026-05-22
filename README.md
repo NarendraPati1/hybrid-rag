@@ -99,6 +99,17 @@ python -m pipeline.ingest --mode incremental
 ```
 
 
+## RAG Pipeline Evaluation
+
+We evaluate the performance of the RAG pipeline using **Ragas** with an LLM-as-a-judge (Google Gemini). The evaluation is run locally against a dataset of predefined test queries and ground-truth answers.
+
+The evaluator measures the pipeline across four key attributes:
+- **Faithfulness:** Measures if the generated answer is factually consistent with the retrieved contexts (checks for hallucinations).
+- **Answer Relevancy:** Measures how well the generated answer directly addresses the user's original query.
+- **Context Precision:** Measures whether the most relevant contexts were ranked higher in the retrieval results.
+- **Context Recall:** Measures if the retrieved contexts successfully capture all the information needed to match the ground-truth answer.
+
+---
 
 ## Challenges We Faced
 
