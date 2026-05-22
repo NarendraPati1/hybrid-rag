@@ -1,5 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Search } from "lucide-react";
+
+const PLACEHOLDERS = [
+  "open-source vector database with filtering",
+  "free LLM framework for building agents",
+  "AI tool to automate browser workflows",
+  "best embedding model for semantic search",
+  "code generation tool with GPT-4",
+  "multimodal AI for image and text tasks",
+];
 
 interface HeaderProps {
   onSearch: (query: string) => void;
@@ -8,6 +17,19 @@ interface HeaderProps {
 
 export const Header: React.FC<HeaderProps> = ({ onSearch, isSearching }) => {
   const [query, setQuery] = useState("");
+  const [phIndex, setPhIndex] = useState(0);
+  const [phVisible, setPhVisible] = useState(true);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setPhVisible(false);
+      setTimeout(() => {
+        setPhIndex((i) => (i + 1) % PLACEHOLDERS.length);
+        setPhVisible(true);
+      }, 400);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -116,9 +138,13 @@ export const Header: React.FC<HeaderProps> = ({ onSearch, isSearching }) => {
               type="text"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="no code ai agent"
+              placeholder={PLACEHOLDERS[phIndex]}
               disabled={isSearching}
-              className="flex-1 bg-transparent border-none outline-none text-[14px] text-white/90 placeholder-white/25 px-3.5 py-2 font-body"
+              className="flex-1 bg-transparent border-none outline-none text-[14px] text-white/90 px-3.5 py-2 font-body"
+              style={{
+                transition: "opacity 0.4s ease",
+                opacity: phVisible ? 1 : 0,
+              }}
             />
 
 
