@@ -16,16 +16,37 @@ Stackwise is an AI-powered directory that helps you find the best AI tools for y
 
 ## How It Works
 
-```
-Your Query
-    ↓
-Smart Router  →  decides the best search strategy for your query
-    ↓
-Hybrid Search →  semantic vector search + keyword search, fused together
-    ↓
-LLM           →  writes a clear explanation of why each tool fits
-    ↓
-Results       →  ranked tool cards with reasoning and confidence scores
+```mermaid
+flowchart TD
+    %% Define Styles
+    classDef client fill:#34d399,stroke:#059669,stroke-width:2px,color:#000
+    classDef server fill:#60a5fa,stroke:#2563eb,stroke-width:2px,color:#fff
+    classDef model fill:#f472b6,stroke:#db2777,stroke-width:2px,color:#fff
+    classDef db fill:#fbbf24,stroke:#d97706,stroke-width:2px,color:#000
+    classDef process fill:#a78bfa,stroke:#7c3aed,stroke-width:2px,color:#fff
+
+    User((👤 User)):::client -->|Natural Language Query| UI[React Frontend <br/> <i>Vercel</i>]:::client
+    UI -->|HTTPS POST| API[API Gateway]:::server
+    API --> Backend[FastAPI Application <br/> <i>AWS Lambda</i>]:::server
+
+    subgraph "Retrieval-Augmented Generation (RAG) Engine"
+        Backend --> Router[LLM Router <br/> <i>Groq Llama 3.3</i>]:::model
+        
+        Router -->|1. Keyword Query + Filters| SparseSearch[BM25 Sparse Search]:::process
+        Router -->|2. Semantic Query + Filters| Embedder[Embedder <br/> <i>fastembed ONNX</i>]:::process
+        
+        SparseSearch --> LocalDB[(Local Index <br/> <i>.pkl cache</i>)]:::db
+        Embedder -->|Vector| DenseSearch[Dense Search]:::process
+        DenseSearch --> Pinecone[(Pinecone DB)]:::db
+        
+        LocalDB -->|Keyword Matches| RRF{RRF Fusion <br/> <i>Reciprocal Rank</i>}:::process
+        Pinecone -->|Semantic Matches| RRF
+        
+        RRF -->|Top-K Ranked Tools| Generator[LLM Generator <br/> <i>Groq Llama 3.3</i>]:::model
+    end
+
+    Generator -->|Tool Recommendations + <br/> Reasoning + Confidence| Backend
+    Backend -->|JSON Response| UI
 ```
 
 
