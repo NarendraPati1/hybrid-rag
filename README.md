@@ -1,4 +1,4 @@
-# Stackwise — AI Tools Directory
+# doomStack — AI Tools Directory
 
 > Discover the right AI tool for any job. Powered by hybrid search and LLM-generated recommendations.
 
@@ -6,9 +6,9 @@
 
 ---
 
-## What is Stackwise?
+## What is doomStack?
 
-Stackwise is an AI-powered directory that helps you find the best AI tools for your use case. Instead of guessing keywords, you describe what you want to do in plain English and Stackwise finds, ranks, and explains the best matches.
+doomStack is an AI-powered directory that helps you find the best AI tools for your use case. Instead of guessing keywords, you describe what you want to do in plain English and doomStack finds, ranks, and explains the best matches.
 
 **Try it:** *"free tool for building AI agents"* or *"open-source vector database"*
 
@@ -52,7 +52,7 @@ flowchart TD
 
 ## Screenshot
 
-![DoomStack homepage](./frontend/public/screenshot.png)
+![doomStack homepage](./frontend/public/screenshot.png)
 
 ---
 ## Tech Stack

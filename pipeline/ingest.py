@@ -1,7 +1,7 @@
 """
 pipeline/ingest.py
 ==================
-Production Data Ingestion Pipeline for Stackwise AI Tools Directory.
+Production Data Ingestion Pipeline for doomStack AI Tools Directory.
 
 Supports three modes:
   --mode full        → Wipe Pinecone namespace + reindex everything from scratch
@@ -244,7 +244,7 @@ def run_rebuild_bm25_only(tools: list[dict]):
 # ══════════════════════════════════════════════════════════════════════════════
 
 def parse_args():
-    p = argparse.ArgumentParser(description="Stackwise Ingestion Pipeline")
+    p = argparse.ArgumentParser(description="doomStack Ingestion Pipeline")
     p.add_argument(
         "--source",
         default="app/ai_tools_dataset.json",

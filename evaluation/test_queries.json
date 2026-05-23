@@ -1,0 +1,134 @@
+[
+  {
+    "question": "best open source vector database",
+    "ground_truth": "Qdrant, Weaviate, and Milvus are popular open-source vector databases. Qdrant is known for performance and Rust-based implementation. Weaviate supports hybrid search natively. Chroma is a lightweight option for local development."
+  },
+  {
+    "question": "free framework for building AI agents",
+    "ground_truth": "LangChain and LlamaIndex are widely used free frameworks for building AI agents. CrewAI is an open-source multi-agent orchestration framework. AutoGen by Microsoft enables conversational multi-agent workflows."
+  },
+  {
+    "question": "tool for automating browser workflows with AI",
+    "ground_truth": "Playwright and Puppeteer are browser automation tools. AgentGPT and AutoGPT can browse the web autonomously. Browser-use and Multion are AI-native browser automation tools."
+  },
+  {
+    "question": "open source LLM inference server",
+    "ground_truth": "Ollama is popular for running LLMs locally. vLLM is a high-throughput inference engine. LM Studio provides a UI for local LLMs. Text Generation Inference (TGI) by Hugging Face is production-grade."
+  },
+  {
+    "question": "tool for evaluating RAG pipelines",
+    "ground_truth": "RAGAS is the standard framework for RAG evaluation. TruLens and DeepEval are alternatives. LangSmith provides tracing and evaluation for LangChain-based systems."
+  },
+  {
+    "question": "AI coding assistant for VS Code",
+    "ground_truth": "GitHub Copilot is the most popular AI coding assistant. Cursor is an AI-native IDE. Codeium and Continue are free alternatives. Tabnine offers privacy-focused code completion."
+  },
+  {
+    "question": "workflow automation with LLMs",
+    "ground_truth": "n8n and Zapier support LLM-powered automations. LangChain provides chains and agents for workflow automation. Flowise is a low-code LangChain builder. Rivet and Langflow offer visual LLM workflow builders."
+  },
+  {
+    "question": "embedding model for semantic search",
+    "ground_truth": "OpenAI text-embedding-3-small is widely used. BAAI/bge-small-en-v1.5 is a strong open-source alternative. Cohere Embed and Voyage AI offer high-quality embeddings. Sentence-transformers library provides many pretrained models."
+  },
+  {
+    "question": "tool for fine-tuning LLMs",
+    "ground_truth": "Unsloth and Axolotl are popular open-source fine-tuning frameworks. LoRA and QLoRA techniques enable efficient fine-tuning. Hugging Face TRL supports RLHF-based fine-tuning. Replicate provides hosted fine-tuning."
+  },
+  {
+    "question": "AI image generation API",
+    "ground_truth": "Stability AI provides the Stable Diffusion API. OpenAI DALL-E 3 is available via API. Replicate hosts many image generation models. Fal.ai offers fast image generation inference."
+  },
+  {
+    "question": "open source RAG framework",
+    "ground_truth": "LlamaIndex is purpose-built for RAG applications. LangChain provides RAG primitives and chains. Haystack by deepset is a production RAG framework. txtai and FastRAG are lightweight alternatives."
+  },
+  {
+    "question": "tool for monitoring LLM applications in production",
+    "ground_truth": "LangSmith provides tracing and monitoring for LangChain. Langfuse is an open-source LLM observability platform. Phoenix by Arize supports LLM tracing. Helicone is an LLM proxy with analytics."
+  },
+  {
+    "question": "freemium vector database with cloud hosting",
+    "ground_truth": "Pinecone offers a free starter tier with cloud hosting. Weaviate Cloud and Qdrant Cloud have free tiers. Chroma Cloud and LanceDB Cloud are emerging options."
+  },
+  {
+    "question": "multi-agent AI framework",
+    "ground_truth": "CrewAI enables role-based multi-agent collaboration. AutoGen by Microsoft supports conversational agents. LangGraph provides stateful multi-agent workflows. MetaGPT simulates a software development team."
+  },
+  {
+    "question": "no-code LLM application builder",
+    "ground_truth": "Flowise and Langflow are visual no-code LLM builders. Botpress supports no-code chatbot development. Stack AI and Relevance AI are no-code AI app platforms."
+  },
+  {
+    "question": "tool for document parsing and extraction",
+    "ground_truth": "Unstructured.io parses PDFs, Word, and HTML documents. LlamaParse is specialized for complex PDF extraction. Docling and Marker are open-source document parsers. Adobe PDF Extract API handles enterprise documents."
+  },
+  {
+    "question": "open source alternative to ChatGPT",
+    "ground_truth": "Ollama with Llama 3 or Mistral provides local LLM chat. Open WebUI is a self-hosted ChatGPT-style interface. Jan.ai is a desktop LLM client. LibreChat supports multiple LLM providers."
+  },
+  {
+    "question": "AI tool for generating code from natural language",
+    "ground_truth": "GitHub Copilot and Cursor generate code from prompts. Cody by Sourcegraph understands codebases. GPT-4 and Claude via API are used for code generation. Replit AI integrates generation into a cloud IDE."
+  },
+  {
+    "question": "tool for building chatbots",
+    "ground_truth": "LangChain with memory supports chatbot development. Botpress and Rasa are chatbot frameworks. Voiceflow builds conversational AI interfaces. Chainlit provides a chat UI for LLM apps."
+  },
+  {
+    "question": "vector search with metadata filtering",
+    "ground_truth": "Pinecone supports metadata filtering with $eq and $in operators. Qdrant and Weaviate support payload filtering. pgvector with PostgreSQL enables vector search with SQL filters."
+  },
+  {
+    "question": "LLM router or orchestration tool",
+    "ground_truth": "LiteLLM is a unified API for routing between LLM providers. PortKey and OpenRouter act as LLM gateways. LangChain's router chains select strategies per query."
+  },
+  {
+    "question": "AI tool for summarizing documents",
+    "ground_truth": "LlamaIndex and LangChain support document summarization chains. Quivr and Notion AI summarize uploaded documents. Claude's 200K context window handles long documents natively."
+  },
+  {
+    "question": "paid AI research assistant",
+    "ground_truth": "Perplexity AI Pro is a paid AI search and research tool. Elicit specializes in academic research. Consensus searches scientific papers with AI. You.com Research Mode is another option."
+  },
+  {
+    "question": "tool for prompt engineering and testing",
+    "ground_truth": "PromptLayer tracks and versions prompts. Promptfoo tests prompts across models. LangSmith evaluates prompt performance. Weights & Biases Prompts provides prompt versioning."
+  },
+  {
+    "question": "data pipeline tool for AI applications",
+    "ground_truth": "Airflow and Prefect orchestrate data pipelines. Dagster is built for data-intensive workflows. Bytewax enables streaming data pipelines in Python. Unstructured handles AI-focused ETL."
+  },
+  {
+    "question": "free AI tool for writing and content generation",
+    "ground_truth": "ChatGPT free tier supports writing tasks. Claude.ai has a free tier. Notion AI and Jasper are writing assistants. Writesonic and Copy.ai generate marketing content."
+  },
+  {
+    "question": "tool for building knowledge bases with AI",
+    "ground_truth": "Notion AI and Confluence with AI plugins manage knowledge bases. Quivr and Khoj enable AI-powered personal knowledge bases. Obsidian with AI plugins supports local knowledge management."
+  },
+  {
+    "question": "AI infrastructure for running models at scale",
+    "ground_truth": "Modal and Replicate host and scale ML models. BentoML packages models for deployment. Ray Serve handles distributed model serving. AWS SageMaker and Google Vertex AI are cloud options."
+  },
+  {
+    "question": "open source speech to text model",
+    "ground_truth": "Whisper by OpenAI is the leading open-source speech-to-text model. FasterWhisper is an optimized Whisper implementation. Deepgram and AssemblyAI offer hosted speech-to-text APIs."
+  },
+  {
+    "question": "AI tool for analysing and querying databases",
+    "ground_truth": "Text-to-SQL tools like Vanna.ai query databases with natural language. LangChain SQL agent connects LLMs to databases. MindsDB adds AI to databases directly. SQLCoder is an open-source text-to-SQL model."
+  },
+  {
+    "question": "low latency LLM inference API",
+    "ground_truth": "Groq provides extremely fast LLM inference using LPU hardware. Together AI and Fireworks AI offer fast inference. Cerebras also provides high-speed LLM inference APIs."
+  },
+  {
+    "question": "AI tool for web scraping",
+    "ground_truth": "Firecrawl scrapes websites into LLM-ready markdown. Spider and Crawl4AI are open-source web scrapers for AI. Apify provides cloud-based web scraping with AI extraction."
+  },
+  {
+    "question": "tool for building AI pipelines with visual interface",
+    "ground_truth": "Flowise and Langflow are visual drag-and-drop LLM pipeline builders. Rivet by Ironclad supports graph-based AI workflows. n8n supports visual automation with LLM nodes."
+  }
+]

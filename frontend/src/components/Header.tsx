@@ -53,7 +53,7 @@ export const Header: React.FC<HeaderProps> = ({ onSearch, isSearching }) => {
       <div className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 md:px-10 py-5">
         {/* Logo */}
         <div className="flex items-center gap-2.5">
-          {/* DoomStack stacked-layers mark */}
+          {/* doomStack stacked-layers mark */}
           <div style={{
             width: 36,
             height: 36,
@@ -102,7 +102,7 @@ export const Header: React.FC<HeaderProps> = ({ onSearch, isSearching }) => {
 
 
         <a
-          href="https://github.com/NarendraPati1/hybrid-rag"
+          href="https://github.com/NarendraPati1/doomStack"
           target="_blank"
           rel="noreferrer"
           className="flex items-center gap-2 px-3.5 py-2 rounded-lg bg-white/[0.04] border border-white/[0.06] hover:bg-white/[0.07] transition-all text-sm"
