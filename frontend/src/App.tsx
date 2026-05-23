@@ -137,30 +137,50 @@ const ReasoningModal: React.FC<ReasoningModalProps> = ({
         {/* Body */}
         <div className="flex-1 px-6 py-6 space-y-6">
           {/* Why this tool was recommended */}
-          <div>
-            <h4 className="text-[10px] font-bold text-white/30 uppercase tracking-widest mb-3 font-display">
-              Why this tool was recommended
-            </h4>
-            {tool.citations && tool.citations.length > 0 ? (
-              <ul className="space-y-2.5">
-                {tool.citations.map((cite, i) => (
-                  <li key={i} className="flex items-start gap-2.5 font-body">
-                    <span className="text-accent-soft shrink-0 mt-0.5 select-none text-sm">•</span>
-                    <span className="text-[13px] text-white/75 leading-relaxed">{cite}</span>
-                  </li>
-                ))}
-              </ul>
-            ) : (
-              <p className="text-[13px] text-white/55 font-body leading-relaxed">{tool.reasoning}</p>
+          <div className="space-y-4">
+            <div>
+              <h4 className="text-[10px] font-bold text-white/30 uppercase tracking-widest mb-2.5 font-display">
+                Why this tool was recommended
+              </h4>
+              <p className="text-[13px] text-white/75 font-body leading-relaxed">
+                {tool.reasoning}
+              </p>
+            </div>
+
+            {tool.citations && tool.citations.length > 0 && (
+              <div>
+                <h4 className="text-[10px] font-bold text-white/30 uppercase tracking-widest mb-2.5 font-display">
+                  Key Cited Features & Context
+                </h4>
+                <ul className="space-y-2">
+                  {tool.citations.map((cite, i) => (
+                    <li key={i} className="flex items-start gap-2 font-body">
+                      <span className="text-accent-soft shrink-0 mt-1 select-none text-[10px]">◆</span>
+                      <span className="text-[13px] text-white/70 leading-relaxed">{cite}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             )}
           </div>
 
           {/* Backend reasoning */}
           {strategy && (
-            <div className="rounded-xl bg-white/[0.03] border border-white/[0.05] p-4">
-              <h4 className="text-[10px] font-bold text-white/30 uppercase tracking-widest mb-2 font-display">
-                Backend reasoning
-              </h4>
+            <div className="rounded-xl bg-white/[0.03] border border-white/[0.05] p-4 space-y-3">
+              <div className="flex items-center justify-between">
+                <h4 className="text-[10px] font-bold text-white/30 uppercase tracking-widest font-display">
+                  Backend reasoning
+                </h4>
+                <span className={`text-[9px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider ${
+                  strategy === "hybrid"
+                    ? "bg-violet-500/10 text-violet-400 border border-violet-500/20"
+                    : strategy === "dense"
+                      ? "bg-pink-500/10 text-pink-400 border border-pink-500/20"
+                      : "bg-amber-500/10 text-amber-400 border border-amber-500/20"
+                }`}>
+                  {strategy} search
+                </span>
+              </div>
               <p className="text-[12px] text-white/55 font-body leading-relaxed">
                 {strategyExplanation}
               </p>
