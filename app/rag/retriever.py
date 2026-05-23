@@ -305,6 +305,10 @@ def retrieve_tools(query: str, top_k: int = 10) -> dict:
     filters        = route["filters"]
     semantic_query = route["semantic_query"]
 
+    dense_ranked = []
+    sparse_ranked = []
+    final_results = []
+
     if not semantic_query.strip() and filters:
         final_results = filter_only_search(filters, top_k=top_k)
     elif strategy == "dense":
@@ -327,9 +331,30 @@ def retrieve_tools(query: str, top_k: int = 10) -> dict:
             tool_copy["score"] = score
             retrieved_tools.append(tool_copy)
 
+    debug_retrieval = {
+        "router": {
+            "strategy": strategy,
+            "filters_extracted": filters,
+            "semantic_query": semantic_query
+        },
+        "dense_raw": [
+            {"id": item["id"], "score": item["score"], "rank": item["rank"]}
+            for item in dense_ranked
+        ],
+        "sparse_raw": [
+            {"id": item["id"], "score": item["score"], "rank": item["rank"]}
+            for item in sparse_ranked
+        ],
+        "rrf_raw": [
+            {"id": item_id, "rrf_score": rrf_score, "rank": idx + 1}
+            for idx, (item_id, rrf_score) in enumerate(final_results)
+        ]
+    }
+
     return {
         "strategy":       strategy,
         "filters":        filters,
         "semantic_query": semantic_query,
         "results":        retrieved_tools,
+        "debug_retrieval": debug_retrieval,
     }

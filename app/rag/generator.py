@@ -109,6 +109,13 @@ def generate_response(query: str, retrieval_data: dict) -> dict:
         response_json["query"]    = query
         response_json["strategy"] = retrieval_data.get("strategy", "unknown")
         response_json["filters"]  = retrieval_data.get("filters", {})
+        response_json["debug_info"] = {
+            "retrieval": retrieval_data.get("debug_retrieval"),
+            "generation": {
+                "context_passed_to_llm": context_str,
+                "raw_llm_recommendations": response_json.get("tools", [])
+            }
+        }
 
         return response_json
 
@@ -134,4 +141,12 @@ def generate_response(query: str, retrieval_data: dict) -> dict:
             "strategy": retrieval_data.get("strategy", "unknown"),
             "filters":  retrieval_data.get("filters", {}),
             "tools":    fallback_tools,
+            "debug_info": {
+                "retrieval": retrieval_data.get("debug_retrieval"),
+                "generation": {
+                    "context_passed_to_llm": context_str,
+                    "error": str(e),
+                    "fallback_applied": True
+                }
+            }
         }

@@ -22,6 +22,7 @@ export interface SearchResponse {
   tools: ToolResult[];
   strategy: string;
   filters?: Record<string, unknown>;
+  debug_info?: Record<string, any>;
 }
 
 export interface ToolsResponse {

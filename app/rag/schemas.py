@@ -35,3 +35,4 @@ class SearchResponse(BaseModel):
     strategy: str = Field(description="The retrieval strategy used (dense, bm25, or hybrid)")
     filters: Dict[str, Any] = Field(description="Filters applied to retrieval")
     tools: List[ToolRecommendation] = Field(description="Ranked list of tool recommendations with generated reasoning")
+    debug_info: Optional[Dict[str, Any]] = Field(default=None, description="Diagnostic information for the entire RAG pipeline")
