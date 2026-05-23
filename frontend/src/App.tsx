@@ -335,10 +335,11 @@ export default function App() {
     return matchesCategory && matchesPricing;
   });
 
-  // Sort tools alphabetically by name
-  const sortedFilteredTools = [...filteredTools].sort((a, b) =>
-    a.tool_name.localeCompare(b.tool_name)
-  );
+  // Sort tools alphabetically ONLY when browsing the directory.
+  // For search queries, preserve the RAG relevance order returned by the backend.
+  const sortedFilteredTools = isBrowsingAll
+    ? [...filteredTools].sort((a, b) => a.tool_name.localeCompare(b.tool_name))
+    : filteredTools;
 
   // Calculate paginated tools
   const totalItems = sortedFilteredTools.length;
