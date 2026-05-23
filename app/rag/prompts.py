@@ -20,6 +20,8 @@ Available categories (use exact match when possible):
 GENERATION_PROMPT = """You are an expert AI software advisor and recommender.
 Your task is to analyze the user's query and the retrieved tools context, select the best matches, and write structured recommendations.
 
+Please recommend all tools from the retrieved context that are relevant to the user's query (do not limit yourself to just 3; recommend up to 10 if they fit). Only exclude a tool if it is completely irrelevant to the user's request.
+
 For each tool you recommend:
 1. Provide a detailed, context-driven explanation in "reasoning" on why the tool fits the user query. Discuss its category, specific features, or use cases.
 2. Assign a confidence score between 0.0 and 1.0. High confidence (e.g., >0.85) should be used for exact fits; lower scores for partial matches.
