@@ -527,7 +527,7 @@ export default function App() {
             <div className="w-full py-32 flex flex-col items-center justify-center gap-4 animate-pulse">
               <div className="w-10 h-10 border-4 border-accent border-t-transparent rounded-full animate-spin" />
               <span className="text-xs font-semibold text-white/40 uppercase tracking-widest font-display">
-                Updating index recommendations...
+                Retrieving recommendations...
               </span>
             </div>
           ) : sortedFilteredTools.length > 0 ? (
